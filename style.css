@@ -22,7 +22,7 @@ body {
   }
 
   nav ul {
-    color:black;
+    color: black;
     display: flex;
     justify-content: stretch;
     gap: 79%;
@@ -31,15 +31,13 @@ body {
     background: white;
   }
 
-    nav ul li {
-        font-size: 22px;
-        font-weight: 500;
-        color: #344563;
-        margin: 0 auto;
-        padding: 0 auto;
-    }
-
- 
+  nav ul li {
+    font-size: 22px;
+    font-weight: 500;
+    color: #344563;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
 
   main {
     background: white;
