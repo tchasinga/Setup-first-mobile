@@ -9,18 +9,14 @@
 }
 
 /*
-   dear Roshan Bajgain here I've add the 768px 
-   please valid my project because after this I'll be able to move forward 
+   dear Roshan Bajgain here I've add the 768px please valid my project because after this I'll be able to move forward
 */
-
-
 
 @media only screen and (max-width: 375px),
   (max-width: 345px),
   (max-width: 390px),
   (max-width: 414px),
-  (max-width : 768px)
-  {
+  (max-width: 768px) {
   body {
     background: #e5e5e5;
     margin: 0 auto;
@@ -84,7 +80,6 @@
     font-weight: 500;
     color: #7f8cff;
     font-style: normal;
-    margin-top:10px;
-    
+    margin-top: 10px;
   }
 }
