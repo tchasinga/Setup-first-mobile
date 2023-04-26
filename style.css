@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+   dear Roshan Bajgain here I've add the 768px please valid my project because after this I'll be able to move forward
+*/
+
+@media only screen and (max-width: 375px),
+  (max-width: 345px),
+  (max-width: 390px),
+  (max-width: 414px),
+  (max-width: 768px) {
+  body {
+    background: #e5e5e5;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: stretch;
+    gap: 79%;
+    margin: 0%;
+    padding: 25px;
+    background: white;
+  }
+
+  nav ul li {
+    font-size: 32px;
+    font-weight: 500;
+    color: #6070ff;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  main {
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    background-image: url(img/header-shapes\ mobile.png);
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: initial;
+    padding: 20px;
+    border-bottom-left-radius: 70px;
+  }
+
+  .titleText h1 {
+    font-size: 35px;
+    line-height: 52px;
+  }
+
+  .titleText {
+    position: relative;
+    top: 55px;
+  }
+
+  .LinkNetwork ul {
+    display: flex;
+    width: 50%;
+    gap: 22px;
+    position: absolute;
+    top: +475px;
+  }
+
+  .titleText p {
+    color: #344563;
+    font-size: small;
+  }
+
+  .titleText h3 {
+    font-weight: 500;
+    color: #7f8cff;
+    font-style: normal;
+    margin-top: 10px;
+  }
+}
