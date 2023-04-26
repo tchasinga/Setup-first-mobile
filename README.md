@@ -74,11 +74,8 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
+## Coming Soon
 >Here you can fund the link of demon of this website 
-
-- [Click here to previews the demon ](https://yangamycv.netlify.app/)
 
 ><p align="right">(<a href="#readme-top">back to top</a>)</p>
 
