@@ -240,9 +240,8 @@ It's a good idea to start by perusing the available documentation and contacting
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./license) licensed.
+>## 📝 License
+Learn more about [MIT](./license)licensed.
 
 
 
