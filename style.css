@@ -49,13 +49,13 @@
     min-height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: start;
+    text-align: initial;
     padding: 10px;
     border-bottom-left-radius: 70px;
   }
 
   .titleText h1 {
-    font-size: 38px;
+    font-size: 45px;
     line-height: 52px;
   }
 
@@ -69,11 +69,12 @@
     width: 50%;
     gap: 22px;
     position: absolute;
-    top: 339px;
+    top: +465px;
   }
 
   .titleText p {
     color: #344563;
+    font-size: small;
   }
 
   .titleText h3 {
