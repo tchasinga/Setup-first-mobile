@@ -64,7 +64,8 @@
     width: 50%;
     gap: 22px;
     position: absolute;
-    top: 430px;
+    top: 449px;
+
   }
 
   .titleText p {
@@ -75,6 +76,8 @@
     font-weight: 500;
     color: #7f8cff;
     font-style: normal;
-    margin-top: 10px;
+    margin-top: -10px;
+    position: relative;
+    bottom: -10px;
   }
 }
