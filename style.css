@@ -22,7 +22,7 @@ body {
   }
 
   nav ul {
-    color: blue;
+    color:black;
     display: flex;
     justify-content: stretch;
     gap: 79%;
@@ -30,6 +30,16 @@ body {
     padding: 25px;
     background: white;
   }
+
+    nav ul li {
+        font-size: 22px;
+        font-weight: 500;
+        color: #344563;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+ 
 
   main {
     background: white;
@@ -48,6 +58,7 @@ body {
     font-size: 38px;
     line-height: 52px;
   }
+
   .LinkNetwork ul {
     display: flex;
     width: 50%;
@@ -55,6 +66,7 @@ body {
     position: absolute;
     top: 390px;
   }
+
   .titleText p {
     color: #344563;
   }
