@@ -20,7 +20,7 @@
   }
 
   nav ul {
-    background:brown;
+   
     display: flex;
     justify-content: stretch;
     gap: 79%;
@@ -32,7 +32,7 @@
   nav ul li {
     font-size: 32px;
     font-weight: 500;
-    color: #6070FF;
+    color: #6070ff;
     margin: 0 auto;
     padding: 0 auto;
   }
