@@ -241,7 +241,7 @@ It's a good idea to start by perusing the available documentation and contacting
 <!-- LICENSE -->
 
 >## 📝 License
-Learn more about [MIT](./license)licensed.
+Learn more about [MIT](./LICENSE) licensed.
 
 
 
