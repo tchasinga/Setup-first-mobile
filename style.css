@@ -8,10 +8,6 @@
   margin: 0;
 }
 
-/*
-   dear Roshan Bajgain here I've add the 768px please valid my project because after this I'll be able to move forward
-*/
-
 @media only screen and (max-width: 375px),
   (max-width: 345px),
   (max-width: 390px),
@@ -21,6 +17,7 @@
     background: #e5e5e5;
     margin: 0 auto;
     padding: 0 auto;
+    max-width: 400px;
     text-align: center;
     scroll-behavior: smooth;
   }
@@ -47,7 +44,6 @@
     display: grid;
     grid-template-columns: repeat(1, 2fr);
     background-image: url(img/header-shapes\ mobile.png);
-    width: 375px;
     height: 718px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,12 +83,14 @@
   }
 
   .card-id {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    text-decoration-line: none;
+    text-align: center;
     align-items: center;
-    margin-top: 50px;
-    gap: 20px;
+    list-style: none;
+    padding: 8px 22px;
   }
 
   .card-one {
@@ -186,6 +184,10 @@
     margin-top: 10px;
   }
 
+  .seeMore .seeMoring {
+    align-items: center;
+  }
+
   .seeMore h3 {
     /* Button /Normal */
     font-style: normal;
@@ -196,13 +198,14 @@
     position: relative;
     left: 13px;
     margin-top: 20px;
-    align-items: center;
-    padding: 4px 5px;
+    padding: 0 5px;
     gap: 12px;
+    align-items: center;
 
     /* Primary/B500 */
     border: 1px solid #396df2;
-    width: 123px;
+    width: 100px;
+    height: 40px;
     color: #396df2;
     border-radius: 8px;
     transition: all 0.5s ease;
@@ -213,12 +216,14 @@
     color: white;
   }
 
-  footer {
+  .about-me {
+    display: flexbox;
     position: absolute;
     width: 375px;
     height: 1263px;
     background: #fff;
     border-top-right-radius: 120px;
+    margin-top: 50px;
   }
 
   .aboutme {
