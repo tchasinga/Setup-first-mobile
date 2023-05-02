@@ -99,8 +99,7 @@
     line-height: 0px;
   }
 
-
-  .contactLink .resum{
+  .contactLink .resum {
     display: block;
     padding: 10px;
     width: 102px;
@@ -145,6 +144,7 @@
     background: white;
     margin-top: 50px;
     padding: 10px;
+    border-top-right-radius: 80px;
   }
 
   .aboutme {
