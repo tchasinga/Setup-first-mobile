@@ -225,7 +225,7 @@
   }
 
   .formController input {
-    width: 90%;
+    width: 95%;
     height: 48px;
     border-radius: 8px;
     border: none;
@@ -234,7 +234,7 @@
   }
 
   .formController textarea {
-    width: 90%;
+    width: 95%;
     height: 170px;
     border-radius: 8px;
     border: none;
@@ -244,7 +244,6 @@
 
   .Contacting .btn {
     display: block;
-    margin-left: 3%;
     height: 48px;
     width: 142px;
     border-radius: 8px;
@@ -254,7 +253,17 @@
   }
 
   .Contacting .btn:hover {
-    background-color: #1f1e1e;
+    background: #6070ff;
     color: #fff;
+  }
+
+  .Contacting .btn:enabled {
+    background: #fff;
+    color: #6070ff;
+  }
+
+  .Contacting .btn:disabled {
+    background: #fff;
+    color: #5e6c84;
   }
 }
