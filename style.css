@@ -159,9 +159,21 @@
     right: 10%;
   }
 
+  .techLanguage ul li{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
+  }
+
+  .techLanguage ul li img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+
 
   }
 
-
+}
 
 
