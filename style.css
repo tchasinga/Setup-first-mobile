@@ -253,10 +253,8 @@
     border: 1px solid #6070ff;
   }
 
-  .Contacting .btn:hover{
+  .Contacting .btn:hover {
     background-color: #1f1e1e;
     color: #fff;
   }
-
-  
 }
