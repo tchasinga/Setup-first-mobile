@@ -4,28 +4,23 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
 }
 
 @media only screen and (max-width: 375px),
-  (max-width: 345px),
   (max-width: 390px),
   (max-width: 414px),
-  (max-width: 768px) {
+  (max-width: 414px) {
   body {
-    background: #e5e5e5;
-    margin: 0 auto;
-    padding: 0 auto;
-    max-width: 400px;
-    text-align: center;
-    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dfe1e6;
   }
 
   nav ul {
     display: flex;
     justify-content: stretch;
-    gap: 79%;
+    gap: 70%;
     margin: 0%;
     padding: 25px;
     background: white;
@@ -44,7 +39,6 @@
     display: grid;
     grid-template-columns: repeat(1, 2fr);
     background-image: url(img/header-shapes\ mobile.png);
-    height: 718px;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: initial;
@@ -58,28 +52,14 @@
   }
 
   .titleText {
-    position: relative;
-    top: 55px;
+    margin-top: 20px;
+    margin-left: 20px;
   }
 
   .LinkNetwork ul {
     display: flex;
-    width: 50%;
-    gap: 22px;
-    position: absolute;
-    top: +475px;
-  }
-
-  .titleText p {
-    color: #344563;
-    font-size: small;
-  }
-
-  .titleText h3 {
-    font-weight: 500;
-    color: #7f8cff;
-    font-style: normal;
-    margin-top: 10px;
+    gap: 30px;
+    margin-top: -15px;
   }
 
   .card-id {
@@ -103,264 +83,187 @@
     transition: all 0.5 ease;
   }
 
-  .card-one img {
-    margin-top: 20px;
-  }
-
-  .card-one ul {
-    display: inline-flex;
-    gap: 10px;
+  .tonic {
+    color: rgb(8, 8, 8);
+    font-size: 20px;
     position: relative;
+    right: 89px;
   }
 
   .card-one ul li {
-    font-size: 12px;
-    font-weight: 500;
-    color: #344563;
+    color: rgb(32, 30, 30);
+    display: inline-flex;
     position: relative;
-    left: -34px;
+    right: 43px;
+    gap: 20px;
+    line-height: 0px;
   }
 
-  .card-one ul li h4 {
-    width: 55px;
-    height: 16px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 16px;
-    color: #344563;
-  }
-
-  .card-one ul li img {
-    position: relative;
-    top: -14px;
+  .contactLink .resum {
+    display: block;
+    padding: 10px;
+    width: 102px;
+    border-radius: 8px;
+    color: #6070ff;
+    font-size: 75%;
+    float: left 15%;
+    border: 1px solid #6070ff;
+    align-items: center;
   }
 
   .card-one h3 {
-    width: 295px;
-    height: 36px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 44px;
-    color: #172b4d;
+    color: rgb(19, 16, 16);
     position: relative;
-    left: -38px;
-    margin-bottom: 10px;
-  }
-
-  .card-one .tonic {
-    color: #172b4d;
-    position: relative;
-    left: -93px;
-  }
-
-  .textTonic p {
-    width: 295px;
-    height: 76px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: #344563;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    text-align: start;
-    position: relative;
-    left: +20px;
+    right: 47px;
   }
 
   .language ul li {
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
     justify-content: center;
-    padding: 3px 13px;
+    padding: 2px 9px;
     background: #ebebff;
     border-radius: 8px;
     color: #6070ff;
     position: relative;
-    left: -39px;
-    margin-top: 10px;
-  }
-
-  .seeMore .seeMoring {
-    align-items: center;
+    left: -59px;
+    margin-top: 5px;
   }
 
   .seeMore h3 {
-    /* Button /Normal */
-    font-style: normal;
+    color: #6070ff;
     font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    position: relative;
-    left: 13px;
-    margin-top: 20px;
-    padding: 0 5px;
-    gap: 12px;
-    align-items: center;
-
-    /* Primary/B500 */
-    border: 1px solid #396df2;
-    width: 100px;
-    height: 40px;
-    color: #396df2;
+    border: 1px solid #6070ff;
+    padding: 2px 5px;
     border-radius: 8px;
-    transition: all 0.5s ease;
-  }
-
-  .seeMore h3:hover {
-    background: #396df2;
-    color: white;
+    max-width: 50%;
+    position: relative;
+    left: 10px;
   }
 
   .about-me {
-    display: flexbox;
-    position: absolute;
-    width: 375px;
-    height: 1263px;
-    background: #fff;
-    border-top-right-radius: 120px;
+    background: white;
     margin-top: 50px;
+    padding: 10px;
+    border-top-right-radius: 80px;
   }
 
   .aboutme {
-    margin-top: 100px;
-  }
-
-  .aboutme p {
-    width: 327px;
-    height: 147px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 10px;
-    color: #344563;
-  }
-
-  .aboutme h1 {
-    width: 327px;
-    height: 35px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #172b4d;
-    position: relative;
-    left: 30px;
-    margin-bottom: 20px;
-  }
-
-  .aboutme .connect {
-    width: 217px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-    margin-bottom: 20px;
-    justify-content: start;
+    margin-top: 20px;
+    margin-left: 20px;
   }
 
   .contactLink ul {
-    display: flex;
-    gap: 25px;
-    margin-left: 30px;
-    cursor: pointer;
-  }
-
-  .contactLink .resum {
-    width: 138px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #396df2;
-    border: 1px solid #396df2;
-    position: relative;
-    left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 7px 20px;
-    border-radius: 8px;
-  }
-
-  .contactLink .resum:hover {
-    background: #396df2;
-    color: white;
-  }
-
-  .framWork ul li {
-    display: flex;
-    flex-direction: row;
-    color: brown;
-    gap: 15px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    width: 303px;
-    height: 66.72px;
-    padding: 8px 20px;
-    background: #f7f7f9;
-    border-radius: 8px;
-  }
-
-  .framWork p {
-    color: #172b4d;
-    position: relative;
-    top: 20px;
+    display: inline-flex;
+    gap: 30px;
+    line-height: 0%;
   }
 
   .framWork .code {
-    display: flex;
-    gap: 180px;
     margin-top: 20px;
-    margin-bottom: 50px;
-    position: relative;
-    left: 40px;
+    margin-left: 20px;
+    display: inline-flex;
+    gap: 140px;
   }
 
-  .framWork .code img {
-    width: 5%;
-    height: 5%;
+  .framWork img {
+    width: 50px;
+    height: 50px;
     position: relative;
     top: 10px;
   }
 
+  .framWork ul li {
+    color: rgb(34, 30, 30);
+    display: flex;
+    gap: 10px;
+    background: #dfe1e6;
+    margin: 10px;
+    position: relative;
+    right: 10%;
+  }
+
   .techLanguage ul li {
     display: flex;
-    gap: 180px;
-    margin-top: 20px;
-    position: relative;
-    left: 40px;
-    margin-bottom: 40px;
-    border-bottom: 2px solid #dfe1e6;
-    padding-bottom: 20px;
-    width: 300px;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
   }
 
-  .techLanguage #oneImg {
+  .techLanguage ul li img {
     width: 30px;
     height: 30px;
+    position: relative;
+    top: 10px;
   }
 
-  .techLanguage .move {
-    position: relative;
-    left: 50px;
+  .Contacting {
+    font-family: "Poppins", sans-serif;
+    background-color: #6070ff;
+    text-align: center;
+    height: 846px;
+    padding: 24px;
+    border-top-left-radius: 80px;
+    background-image: url("img/contact-mobile.svg");
+    background-position: right 50px;
+    background-repeat: no-repeat;
   }
 
-  .techLanguage .oneMove {
-    position: relative;
-    left: -12px;
+  .Contacting h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 103px;
+  }
+
+  .Contacting p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ebebff;
+  }
+
+  .formController {
+    margin: 8px auto;
+  }
+
+  .formController input {
+    width: 95%;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+  }
+
+  .formController textarea {
+    width: 95%;
+    height: 170px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+  }
+
+  .Contacting .btn {
+    display: block;
+    height: 48px;
+    width: 142px;
+    border-radius: 8px;
+    color: #6070ff;
+    font-size: 17px;
+    border: 1px solid #6070ff;
+  }
+
+  .Contacting .btn:hover {
+    background: #6070ff;
+    color: #fff;
+  }
+
+  .Contacting .btn:enabled {
+    background: #fff;
+    color: #6070ff;
+  }
+
+  .Contacting .btn:disabled {
+    background: #fff;
+    color: #5e6c84;
   }
 }
