@@ -1,8 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
-
-
-
-*{
+* {
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
 }
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dfe1e6;
+  }
+  nav ul {
+    display: flex;
+    justify-content: stretch;
+    gap: 70%;
+    margin: 0%;
+    padding: 25px;
+    background: white;
+  }
+  nav ul li {
+    font-size: 32px;
+    font-weight: 500;
+    color: #6070ff;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  main {
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    background-image: url(img/header-shapes\ mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: initial;
+    padding: 20px;
+    border-bottom-left-radius: 70px;
+  }
+
+  .titleText h1 {
+    font-size: 35px;
+    line-height: 52px;
+  }
+
+  .titleText {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .LinkNetwork ul {
+    display: flex;
+    gap: 30px;
+    margin-top: -15px;
+  }
+
+  .card-id {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    text-decoration-line: none;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    padding: 8px 22px;
+  }
+  .card-one {
+    margin-top: 20px;
+    background-color: white;
+    width: 327px;
+    height: 552px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    transition: all 0.5 ease;
+  }
+ .tonic{
+  color: brown;
+  font-size: 20px;
+  position: relative;
+  right: 89px;
+ }
+
+ .card-one ul li {
+  color: rgb(32, 30, 30);
+  display: inline-flex;
+  line-height: 1px;
+  position: relative;
+  right: 43px;
+  gap: 20px;
+  line-height: 0px;
+ }
+
+  .card-one h3 {
+    color: rgb(19, 16, 16);
+    position: relative;
+    right: 47px;
+  }
+  
+  .language ul li {
+    display: inline-flex;
+    justify-content: center;
+    padding: 2px 9px;
+    background: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    position: relative;
+    left: -59px;
+    margin-top: 5px;
+  }
+  .seeMore h3{
+  color:#6070ff;
+  font-weight: 500;
+  border: 1px solid #6070ff;
+  padding: 2px 5px;
+  border-radius: 8px;
+  max-width: 50%;
+  position: relative;
+  left: 10px;
+  }
+  .about-me{
+    background: white;
+    margin-top: 50px;
+    padding: 10px;
+  }
+
+  .aboutme{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .contactLink ul {
+    display: inline-flex;
+    gap: 30px;
+    line-height: 0%;
+  }
+
+  .framWork .code{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    gap: 140px;
+  }
+
+  .framWork img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+  }
+
+  .framWork ul li{
+    color: rgb(34, 30, 30);
+    display: flex;
+    gap: 10px;
+    background: #dfe1e6;
+    margin: 10px;
+    position: relative;
+    right: 10%;
+  }
+
+
+  }
+
+
+
+
