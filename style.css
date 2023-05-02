@@ -7,7 +7,7 @@
 }
 
 @media only screen and (max-width: 375px),
-  (max-max-width: 390px),
+  (max-width: 390px),
   (max-width: 414px),
   (max-width: 414px) {
   body {
@@ -16,6 +16,7 @@
     box-sizing: border-box;
     background-color: #dfe1e6;
   }
+
   nav ul {
     display: flex;
     justify-content: stretch;
@@ -24,6 +25,7 @@
     padding: 25px;
     background: white;
   }
+
   nav ul li {
     font-size: 32px;
     font-weight: 500;
@@ -31,6 +33,7 @@
     margin: 0 auto;
     padding: 0 auto;
   }
+
   main {
     background: white;
     display: grid;
@@ -69,6 +72,7 @@
     list-style: none;
     padding: 8px 22px;
   }
+
   .card-one {
     margin-top: 20px;
     background-color: white;
@@ -78,8 +82,9 @@
     margin-bottom: 30px;
     transition: all 0.5 ease;
   }
+
   .tonic {
-    color: brown;
+    color: rgb(8, 8, 8);
     font-size: 20px;
     position: relative;
     right: 89px;
@@ -88,11 +93,22 @@
   .card-one ul li {
     color: rgb(32, 30, 30);
     display: inline-flex;
-    line-height: 1px;
     position: relative;
     right: 43px;
     gap: 20px;
     line-height: 0px;
+  }
+
+  .contactLink .resum {
+    display: block;
+    padding: 10px;
+    width: 102px;
+    border-radius: 8px;
+    color: #6070ff;
+    font-size: 75%;
+    float: left 15%;
+    border: 1px solid #6070ff;
+    align-items: center;
   }
 
   .card-one h3 {
@@ -112,6 +128,7 @@
     left: -59px;
     margin-top: 5px;
   }
+
   .seeMore h3 {
     color: #6070ff;
     font-weight: 500;
@@ -122,16 +139,19 @@
     position: relative;
     left: 10px;
   }
+
   .about-me {
     background: white;
     margin-top: 50px;
     padding: 10px;
+    border-top-right-radius: 80px;
   }
 
   .aboutme {
     margin-top: 20px;
     margin-left: 20px;
   }
+
   .contactLink ul {
     display: inline-flex;
     gap: 30px;
@@ -199,6 +219,7 @@
     font-weight: 400;
     color: #ebebff;
   }
+
   .formController {
     margin: 8px auto;
   }
@@ -211,6 +232,7 @@
     outline: none;
     padding: 4px 8px;
   }
+
   .formController textarea {
     width: 90%;
     height: 170px;
@@ -229,5 +251,4 @@
     font-size: 17px;
     border: 1px solid #6070ff;
   }
-
 }
