@@ -170,9 +170,29 @@
     height: 30px;
     position: relative;
     top: 10px;
-
-
   }
+
+.Contacting {
+  font-family: 'Poppins', sans-serif;
+  background-color: #6070ff;
+  text-align: center;
+  height: 846px;
+  padding: 24px;
+
+}
+
+.Contacting h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 70px;
+}
+
+.Contacting p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ebebff;
+}
 
 }
 
