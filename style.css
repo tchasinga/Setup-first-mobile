@@ -6,7 +6,7 @@
   list-style-type: none;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px),(max-max-width: 390px),(max-width: 414px),(max-width: 414px) {
   body {
     margin: 0;
     padding: 0;
