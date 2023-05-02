@@ -6,7 +6,10 @@
   list-style-type: none;
 }
 
-@media only screen and (max-width: 375px),(max-max-width: 390px),(max-width: 414px),(max-width: 414px) {
+@media only screen and (max-width: 375px),
+  (max-max-width: 390px),
+  (max-width: 414px),
+  (max-width: 414px) {
   body {
     margin: 0;
     padding: 0;
@@ -75,29 +78,29 @@
     margin-bottom: 30px;
     transition: all 0.5 ease;
   }
- .tonic{
-  color: brown;
-  font-size: 20px;
-  position: relative;
-  right: 89px;
- }
+  .tonic {
+    color: brown;
+    font-size: 20px;
+    position: relative;
+    right: 89px;
+  }
 
- .card-one ul li {
-  color: rgb(32, 30, 30);
-  display: inline-flex;
-  line-height: 1px;
-  position: relative;
-  right: 43px;
-  gap: 20px;
-  line-height: 0px;
- }
+  .card-one ul li {
+    color: rgb(32, 30, 30);
+    display: inline-flex;
+    line-height: 1px;
+    position: relative;
+    right: 43px;
+    gap: 20px;
+    line-height: 0px;
+  }
 
   .card-one h3 {
     color: rgb(19, 16, 16);
     position: relative;
     right: 47px;
   }
-  
+
   .language ul li {
     display: inline-flex;
     justify-content: center;
@@ -109,23 +112,23 @@
     left: -59px;
     margin-top: 5px;
   }
-  .seeMore h3{
-  color:#6070ff;
-  font-weight: 500;
-  border: 1px solid #6070ff;
-  padding: 2px 5px;
-  border-radius: 8px;
-  max-width: 50%;
-  position: relative;
-  left: 10px;
+  .seeMore h3 {
+    color: #6070ff;
+    font-weight: 500;
+    border: 1px solid #6070ff;
+    padding: 2px 5px;
+    border-radius: 8px;
+    max-width: 50%;
+    position: relative;
+    left: 10px;
   }
-  .about-me{
+  .about-me {
     background: white;
     margin-top: 50px;
     padding: 10px;
   }
 
-  .aboutme{
+  .aboutme {
     margin-top: 20px;
     margin-left: 20px;
   }
@@ -135,21 +138,21 @@
     line-height: 0%;
   }
 
-  .framWork .code{
+  .framWork .code {
     margin-top: 20px;
     margin-left: 20px;
     display: inline-flex;
     gap: 140px;
   }
 
-  .framWork img{
+  .framWork img {
     width: 50px;
     height: 50px;
     position: relative;
     top: 10px;
   }
 
-  .framWork ul li{
+  .framWork ul li {
     color: rgb(34, 30, 30);
     display: flex;
     gap: 10px;
@@ -159,41 +162,60 @@
     right: 10%;
   }
 
-  .techLanguage ul li{
+  .techLanguage ul li {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #dfe1e6;
   }
 
-  .techLanguage ul li img{
+  .techLanguage ul li img {
     width: 30px;
     height: 30px;
     position: relative;
     top: 10px;
   }
+ 
+  .Contacting {
+    font-family: 'Poppins', sans-serif;
+    background-color: #6070ff;
+    text-align: center;
+    height: 846px;
+    padding: 24px;
+  
+  }
+  
+  .Contacting h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 70px;
+  }
+  
+  .Contacting p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ebebff;
+  }
+  .formController{
+    margin: 10px auto;
+    
+  }
 
-.Contacting {
-  font-family: 'Poppins', sans-serif;
-  background-color: #6070ff;
-  text-align: center;
-  height: 846px;
-  padding: 24px;
+  .formController input{
+    width: 90%;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 4px 10px;  
+  }
+  .formController textarea{
+    width: 90%;
+    height: 170px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 4px 10px;  
+  }
 
 }
-
-.Contacting h1 {
-  color: #fff;
-  font-size: 40px;
-  font-weight: 700;
-  margin-top: 70px;
-}
-
-.Contacting p {
-  font-size: 20px;
-  font-weight: 400;
-  color: #ebebff;
-}
-
-}
-
-
