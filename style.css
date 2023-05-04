@@ -159,15 +159,13 @@
     background-repeat: no-repeat;
     background-size: 50%;
     margin-top: 50px;
-    margin-bottom: 0%
-   
+    margin-bottom: 0%;
   }
 
-  body .about-me{
-    background-color:#fff;
+  body .about-me {
+    background-color: #fff;
     margin-bottom: -25%;
   }
- 
 
   .contactLink ul {
     display: inline-flex;
@@ -224,7 +222,6 @@
     background-repeat: no-repeat;
     margin-top: 0px;
     margin-bottom: 0px;
-   
   }
 
   .Contacting h1 {
@@ -285,5 +282,19 @@
   .Contacting .btn:disabled {
     background: #fff;
     color: #5e6c84;
+  }
+
+  .titleText p {
+    width: 920px;
+    height: 98px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
   }
 }
