@@ -67,13 +67,15 @@
     display: grid;
     grid-template-columns: repeat(1, 2fr);
     text-decoration-line: none;
-    /* put all of this container in the center*/
+
+    /* put all of this container in the center */
     margin: 0 auto;
     padding: 0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* put all of this container in the center and item*/
+
+    /* put all of this container in the center and item */
 
     width: 327px;
     margin-top: 10%;
@@ -86,7 +88,6 @@
     height: 552px;
     border-radius: 16px;
     margin-bottom: 30px;
-
     transition: all 0.5 ease;
   }
 
@@ -152,7 +153,7 @@
     text-align: center;
     height: 980px;
     padding: 24px;
-    margin: 0px;
+    margin: 0;
     border-top-right-radius: 80px;
     background-image: url("img/contact-mobile.svg");
     background-position: right 50px;
@@ -220,8 +221,8 @@
     background-image: url("img/contact-mobile.svg");
     background-position: right 50px;
     background-repeat: no-repeat;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .Contacting h1 {
@@ -282,19 +283,5 @@
   .Contacting .btn:disabled {
     background: #fff;
     color: #5e6c84;
-  }
-
-  .titleText p {
-    width: 920px;
-    height: 98px;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #344563;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
   }
 }
