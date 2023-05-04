@@ -410,8 +410,8 @@
     border-radius: 8px;
   }
 
-  /*None display*/
-  nav ul .ImgCodeOn{
-   display: none;
+  /* None display */
+  nav ul .ImgCodeOn {
+    display: none;
   }
 }

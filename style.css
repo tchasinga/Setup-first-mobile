@@ -18,7 +18,6 @@
     scroll-behavior: smooth;
   }
 
-
   nav ul {
     display: flex;
     justify-content: stretch;
@@ -64,36 +63,23 @@
     margin-top: -15px;
   }
 
-  .card-id .template{
+  .card-id .template {
     display: grid;
     grid-template-columns: repeat(1, 2fr);
     text-decoration-line: none;
+
     /* put all of this container in the center */
     margin: 0 auto;
     padding: 0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
+
     /* put all of this container in the center and item */
     width: 327px;
     margin-top: 10%;
   }
-  
-  .template{
-    display: grid;
-    grid-template-columns: repeat(1, 2fr);
-    text-decoration-line: none;
-    /* put all of this container in the center */
-    margin: 0 auto;
-    padding: 0 auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* put all of this container in the center and item */
-    width: 327px;
-    margin-top: 10%;
-  }
-  
+
   body .about-me {
     background-color: #fff;
     margin-bottom: -25%;
@@ -216,8 +202,8 @@
     color: #5e6c84;
   }
 
-  /*none display property*/
-  nav ul .Imgnoe{
+  /* none display property */
+  nav ul .Imgnoe {
     display: none;
   }
 }
