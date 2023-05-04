@@ -12,45 +12,61 @@
     background-color: #dfe1e6;
   }
 
-  nav ul .ShowOff {
-    display: none;
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 10px;
   }
 
   nav {
     display: flex;
-    justify-content: start;
-    align-items: center;
-    text-align: center;
-    background: white;
-    flex-wrap: wrap;
-    padding: 10px;
+    justify-content: flex-end;
+    margin-left: 90px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end; /* new */
   }
 
   nav ul li {
     display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
+    margin-right: 20px;
   }
 
-  nav .imgOn {
-    width: 30px;
-    height: 30px;
-    color: blue;
-    justify-content: space-between;
-    margin-right: 250px;
+  nav ul .nameJacK {
+    position: absolute;
+    top: 5px;
+    left: 0;
+  }
+
+  nav ul li a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #344563;
   }
 
   main {
-    display: grid;
-    background: white;
-    grid-template-columns: repeat(1, 2fr);
-    background-image: url(../DeskImg/Header\ bg@2x.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 10px;
-    padding: 40px;
-    border-bottom-left-radius: 70px;
-    margin: 0 auto;
+    
+        display: grid;
+        grid-template-rows: repeat(1, 2fr);
+        justify-content: center;
+        align-items: center;
+        height: 900px;
+        background: white;
+        background-image: url(../DeskImg/Header\ bg@2x.svg);
+        background-repeat: no-repeat;
   }
 
   .titleText h1 {
@@ -82,7 +98,9 @@
   .LinkNetwork ul li {
     display: inline-block;
     margin: 10px;
-    margin-top: 0;
+    margin-top: 0px;
+    
+
   }
 
   /* none displayer session */
