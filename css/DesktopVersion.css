@@ -4,7 +4,9 @@
   font-family: "Poppins", sans-serif;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px),
+  (min-width: 1024),
+  (min-width: 1440px) {
   body {
     margin: 0;
     padding: 0;
@@ -62,7 +64,7 @@
 
   main {
     display: grid;
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: repeat(1fr);
     justify-content: center;
     align-items: center;
     height: 900px;
@@ -71,6 +73,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-left-radius: 200px;
+  }
+
+  .titleText .beConnect {
+    width: 217px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
   }
 
   .titleText h1 {
@@ -84,9 +96,12 @@
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
+    margin-top: 30px;
   }
 
   .titleText p {
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 920px;
     height: 98px;
     font-style: normal;
@@ -100,20 +115,21 @@
   }
 
   .LinkNetwork ul li {
-    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
     position: relative;
-    top: -265px;
-    gap: 40px;
-    margin-right: 20px;
+    left: -59px;
+    margin: 10px;
   }
 
   .LinkNetwork ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-right: -100px;
-    float: left;
+    justify-content: flex-start;
+    list-style: none;
+    flex-wrap: nowrap;
+    margin: 0;
+
+    /* new */
   }
 
   /* none displayer session */
@@ -153,8 +169,9 @@
   }
 
   .template .tempUl li {
-    margin-right: 7px;
+    margin-right: 27px;
     color: #6b778c;
+    list-style-type: disc !important;
     font-size: 18px;
     font-weight: 400;
   }
@@ -181,9 +198,13 @@
   }
 
   .template p {
-    font-size: 14px;
-    color: #6b778c;
+    width: 496px;
+    height: 50px;
+    font-style: normal;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
   }
 
   .about-me {
@@ -219,6 +240,23 @@
     color: #344563;
   }
 
+  .aboutme .resum {
+    width: 138px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    border: 1px solid #396df2;
+    padding: 8px 22px;
+    border-radius: 8px;
+  }
+
   .aboutme .connect {
     font-weight: 500;
     font-size: 16px;
@@ -249,6 +287,7 @@
     font-weight: 500;
     font-size: 20px;
     font-style: normal;
+    border-bottom: 1px solid #dfe1e6;
   }
 
   .framWork .Skills .flesh {
@@ -268,6 +307,9 @@
     padding: 10px;
     margin-top: 10px;
     margin-right: 10px;
+    border-radius: 8px;
+    height: 100px;
+    justify-content: center;
   }
 
   /* End point of conctact */
@@ -284,7 +326,7 @@
   }
 
   .Contacting h1 {
-    margin: 8px auto;
+    margin: 10px auto;
     width: 447px;
     height: 33px;
     font-style: normal;
@@ -316,7 +358,6 @@
   .formController input {
     width: 35%;
     height: 48px;
-    border-radius: 8px;
     border: none;
     outline: none;
     padding: 4px 8px;
@@ -345,12 +386,18 @@
 
   .Contacting .btn:hover {
     background: #6070ff;
+    cursor: pointer;
     color: #fff;
   }
 
   .Contacting .btn:enabled {
     background: #fff;
     color: #6070ff;
+  }
+
+  .Contacting .btn:disabled {
+    background: #fff;
+    color: #5e6c84;
   }
 
   .template .seePro {
