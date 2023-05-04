@@ -34,13 +34,13 @@
     padding: 0 auto;
   }
 
-  main {
-    background: white;
+ body main {
+    background: #fff;
     display: grid;
     grid-template-columns: repeat(1, 2fr);
     background-image: url(img/header-shapes\ mobile.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size:  50px;
     text-align: initial;
     padding: 20px;
     border-bottom-left-radius: 70px;
@@ -207,6 +207,9 @@
     background-repeat: no-repeat;
   }
 
+
+
+
   .Contacting h1 {
     color: #fff;
     font-size: 40px;
@@ -266,4 +269,13 @@
     background: #fff;
     color: #5e6c84;
   }
+
+  /* none displayed*/
+.CodeID{
+  display: none;
+}
+.imgofCode{
+  display: none;
+}
+
 }

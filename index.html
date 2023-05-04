@@ -8,32 +8,30 @@
       rel="stylesheet"
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/DesktopVersion.css" />
     <title>First setup</title>
-    
   </head>
 
-  <!--
-  PLEASE FOR ALL CODE REVIEW THIS IS A MOBILE VERSION THEN YOU MUST RUN IT TO @MEDIA OF 375PX IT WILL
-  DISPLAY A GOOD DESIGNER, BECAUSE OTHER , RUN THE CODE IN A DEVICE OF 475PX OR MICROVERSE THEY REQUIRE US 
-  TO WORK 375PX 
-
-  THANK YOU FOR YOUR UNDERSTANDING
--->
-
   <body>
-    <header> 
+    <header>
       <nav class="navig-container">
         <ul>
-          <li>
-           <a href=""> <img src="img/menu_FILL0_wght400_GRAD0_opsz48.png" alt=""></a>
+          <li class="ImgTagLogo">
+            <a href="">
+              <img src="img/javascript_FILL0_wght400_GRAD0_opsz48.png" alt=""
+            /></a>
           </li>
-          <li>
-            <img src="img/javascript_FILL0_wght400_GRAD0_opsz48.png" alt="">
+          <li class="CodeID"><p>Portfolio</p></li>
+          <li class="CodeID"><p>About</p></li>
+          <li class="CodeID"><p>Contact</p></li>
+          <li class="noneDisplay">
+            <img src="img/menu_FILL0_wght400_GRAD0_opsz48.png" alt="" />
           </li>
         </ul>
       </nav>
     </header>
+
     <main>
       <section class="titleText">
         <h1>
@@ -82,18 +80,60 @@
         </ul>
       </div>
     </main>
-    <!--
-        HERE I'LL USE SESSION TAG TO CODE CARD , AND REMEMBER AGAIN YOU MUST REALLY RUN THIS CODE TO 375PX DEVICE 
-        THANK YOU .....
-        
-        IN THIS CORRECTION I'VE DONE AND MAKE SURE THAT ALL OF REQUIREMENT GIVEN 
-        BY MICROVERSE ARE DONE , AND I'VE DONE IT IN A GOOD WAY , I'VE USED SECTION TAG TO CODE CARD
-        PLEASE FOR THE NEXT CODE VIEWER HELP ME TO MOVE FORWARD , I'VE ONLY TRHEE ATTEMPS, BE AT MY PLACE ..,
-    -->
-    <section id="grid" class="card-id">
-      <div class="card-one">
-        <img src="Icon and img/Tonic Portfolio.png" alt="" />
+    <section class="card-id">
+      <article id="cardI" class="card-one">
+          <img src="DesktopImg/1Portfolio.png" class="imgofCode" alt="" />
+          <img src="Icon and img/Tonic Portfolio.png" class="imgofCoder" alt="" />
+          <h3 class="tonic">Tonic</h3>
+        <div class="card-content">
+          <ul>
+            <li>
+              <h4>Canopy</h4>
+            </li>
+            <li>
+              <img src="Icon and img/Counter.png" alt="" />
+            </li>
+            <li>
+              <p>Band End Dev</p>
+            </li>
+            <li>
+              <img src="Icon and img/Counter.png" alt="" />
+            </li>
+            <li>
+              <p>2015</p>
+            </li>
+          </ul>
+          </div>
+          <div class="textTonic">
+            <p>
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+          </div>
+          <div class="language">
+            <ul>
+              <li>
+                <p>HTML</p>
+              </li>
+              <li>
+                <p>CSS</p>
+              </li>
+              <li>
+                <p>Javascript</p>
+              </li>
+            </ul>
+          </div>
+          <div class="seeMore">
+            <a href="/"><h3>See project</h3></a>
+          </div>
+        </div>
+
+      </article>
+      <article class="card-one">
+        <img src="DesktopImg/2Portfolio.png" class="imgofCode" alt="" />
+        <img src="Icon and img/Snapshoot Portfolio.png" class="imgofCoder" alt="" />
         <h3 class="tonic">Tonic</h3>
+      <div class="card-content">
         <ul>
           <li>
             <h4>Canopy</h4>
@@ -111,6 +151,7 @@
             <p>2015</p>
           </li>
         </ul>
+        </div>
         <div class="textTonic">
           <p>
             A daily selection of privately personalized reads; no accounts or
@@ -134,145 +175,103 @@
           <a href="/"><h3>See project</h3></a>
         </div>
       </div>
-
-      <div id="grid" class="card-one">
-        <div class="card-one">
-          <img src="Icon and img/Snapshoot Portfolio.png" alt="" />
-          <h3>Multi-Post Stories</h3>
+      </article>
+      <article class="card-one">
+        <img src="DesktopImg/Snapshoot Portfolio.png" class="imgofCode" alt="" />
+        <img src="Icon and img/yoga Portfolio.png" class="imgofCoder" alt="" />
+        <h3 class="tonic">Tonic</h3>
+      <div class="card-content">
+        <ul>
+          <li>
+            <h4>Canopy</h4>
+          </li>
+          <li>
+            <img src="Icon and img/Counter.png" alt="" />
+          </li>
+          <li>
+            <p>Band End Dev</p>
+          </li>
+          <li>
+            <img src="Icon and img/Counter.png" alt="" />
+          </li>
+          <li>
+            <p>2015</p>
+          </li>
+        </ul>
+        </div>
+        <div class="textTonic">
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+        </div>
+        <div class="language">
           <ul>
             <li>
-              <h4>Canopy</h4>
+              <p>HTML</p>
             </li>
             <li>
-              <img src="Icon and img/Counter.png" alt="" />
+              <p>CSS</p>
             </li>
             <li>
-              <p>Band End Dev</p>
-            </li>
-            <li>
-              <img src="Icon and img/Counter.png" alt="" />
-            </li>
-            <li>
-              <p>2015</p>
+              <p>Javascript</p>
             </li>
           </ul>
-          <div class="textTonic">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-          </div>
-          <div class="language">
-            <ul>
-              <li>
-                <p>HTML</p>
-              </li>
-              <li>
-                <p>CSS</p>
-              </li>
-              <li>
-                <p>Javascript</p>
-              </li>
-            </ul>
-          </div>
-          <div class="seeMore">
-            <a href="/"><h3>See project</h3></a>
-          </div>
+        </div>
+        <div class="seeMore">
+          <a href="/"><h3>See project</h3></a>
         </div>
       </div>
-
-      <div id="grid" class="card-one">
-        <div class="card-one">
-          <img src="Icon and img/yoga Portfolio.png" alt="" />
-          <h3 class="tonic">Tonic</h3>
+      </article>
+      <article class="card-one">
+        <img src="DesktopImg/3Portfolio.png" class="imgofCode" alt="" />
+        <img src="Icon and img/history Portfolio.png" class="imgofCoder" alt="" />
+        <h3 class="tonic">Tonic</h3>
+      <div class="card-content">
+        <ul>
+          <li>
+            <h4>Canopy</h4>
+          </li>
+          <li>
+            <img src="Icon and img/Counter.png" alt="" />
+          </li>
+          <li>
+            <p>Band End Dev</p>
+          </li>
+          <li>
+            <img src="Icon and img/Counter.png" alt="" />
+          </li>
+          <li>
+            <p>2015</p>
+          </li>
+        </ul>
+        </div>
+        <div class="textTonic">
+          <p>
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+        </div>
+        <div class="language">
           <ul>
             <li>
-              <h4>Canopy</h4>
+              <p>HTML</p>
             </li>
             <li>
-              <img src="Icon and img/Counter.png" alt="" />
+              <p>CSS</p>
             </li>
             <li>
-              <p>Band End Dev</p>
-            </li>
-            <li>
-              <img src="Icon and img/Counter.png" alt="" />
-            </li>
-            <li>
-              <p>2015</p>
+              <p>Javascript</p>
             </li>
           </ul>
-          <div class="textTonic">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-          </div>
-          <div class="language">
-            <ul>
-              <li>
-                <p>HTML</p>
-              </li>
-              <li>
-                <p>CSS</p>
-              </li>
-              <li>
-                <p>Javascript</p>
-              </li>
-            </ul>
-          </div>
-          <div class="seeMore">
-            <a href="/"><h3>See project</h3></a>
-          </div>
+        </div>
+        <div class="seeMore">
+          <a href="/"><h3>See project</h3></a>
         </div>
       </div>
-
-      <div id="grid" class="card-one">
-        <div class="card-one">
-          <img src="Icon and img/history Portfolio.png" alt="" />
-          <h3>Multi-Post Stories</h3>
-          <ul>
-            <li>
-              <h4>Canopy</h4>
-            </li>
-            <li>
-              <img src="Icon and img/Counter.png" alt="" />
-            </li>
-            <li>
-              <p>Band End Dev</p>
-            </li>
-            <li>
-              <img src="Icon and img/Counter.png" alt="" />
-            </li>
-            <li>
-              <p>2015</p>
-            </li>
-          </ul>
-          <div class="textTonic">
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-          </div>
-          <div class="language">
-            <ul>
-              <li>
-                <p>HTML</p>
-              </li>
-              <li>
-                <p>CSS</p>
-              </li>
-              <li>
-                <p>Javascript</p>
-              </li>
-            </ul>
-          </div>
-          <div class="seeMore">
-            <a href="/"><h3 class="seeMoring">See project</h3></a>
-          </div>
-        </div>
-      </div>
+      </article>
     </section>
+
 
     <section class="about-me">
       <div class="aboutme">
@@ -321,7 +320,10 @@
       <div class="framWork">
         <div class="code">
           <h3>Language</h3>
-          <img src="img/keyboard_arrow_down_FILL0_wght400_GRAD0_opsz48.png" alt="" />
+          <img
+            src="img/keyboard_arrow_down_FILL0_wght400_GRAD0_opsz48.png"
+            alt=""
+          />
         </div>
         <ul>
           <li>
@@ -365,20 +367,33 @@
 
     <section class="Contacting">
       <h1>Contact Me</h1>
-      <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-        I’d love to help with it!</p>
-        <form action="https://formspree.io/f/mnqywdoe" method="post">
-          <div class="formController">
-            <input type="text" name="fname" required placeholder="Enter Name" maxlength="30">
-          </div>
-          <div class="formController">
-            <input type="email" name="email" required placeholder="Enter email">
-          </div>
-          <div class="formController">
-            <textarea maxlength="500" required placeholder="Write your message"></textarea>
-          </div> 
-          <button class="btn">Get in touch</button>   
-        </form>
+      <p>
+        If you have an application you are interested <br> in developing, a feature
+        that you need built or a <br> project that needs coding. I’d love to help
+        with it!
+      </p>
+      <form action="https://formspree.io/f/mnqywdoe" method="post">
+        <div class="formController">
+          <input
+            type="text"
+            name="fname"
+            required
+            placeholder="Enter Name"
+            maxlength="30"
+          />
+        </div>
+        <div class="formController">
+          <input type="email" name="email" required placeholder="Enter email" />
+        </div>
+        <div class="formController">
+          <textarea
+            maxlength="500"
+            required
+            placeholder="Write your message"
+          ></textarea>
+        </div>
+        <button class="btn">Get in touch</button>
+      </form>
     </section>
   </body>
 </html>
