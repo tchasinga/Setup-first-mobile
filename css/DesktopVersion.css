@@ -327,7 +327,7 @@
 
   .Contacting h1 {
     margin: 10px auto;
-    width: 447px;
+    width: 446px;
     height: 33px;
     font-style: normal;
     font-weight: 700;
@@ -401,12 +401,17 @@
   }
 
   .template .seePro {
-    color: #6070ff;
+    color: #5969f1;
     font-size: 13px;
     font-weight: bolder;
     width: 80px;
     padding: 4px 22px;
     border: 1px solid #6070ff;
     border-radius: 8px;
+  }
+
+  /*None display*/
+  nav ul .ImgCodeOn{
+   display: none;
   }
 }

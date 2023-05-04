@@ -18,6 +18,7 @@
     scroll-behavior: smooth;
   }
 
+
   nav ul {
     display: flex;
     justify-content: stretch;
@@ -63,106 +64,36 @@
     margin-top: -15px;
   }
 
-  .card-id {
+  .card-id .template{
     display: grid;
     grid-template-columns: repeat(1, 2fr);
     text-decoration-line: none;
-
     /* put all of this container in the center */
     margin: 0 auto;
     padding: 0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
-
     /* put all of this container in the center and item */
-
     width: 327px;
     margin-top: 10%;
   }
-
-  .card-one {
-    margin-top: 20px;
-    background-color: white;
-    width: 327px;
-    height: 552px;
-    border-radius: 16px;
-    margin-bottom: 30px;
-    transition: all 0.5 ease;
-  }
-
-  .tonic {
-    color: rgb(8, 8, 8);
-    font-size: 20px;
-    position: relative;
-    right: 89px;
-  }
-
-  .card-one ul li {
-    color: rgb(32, 30, 30);
-    display: inline-flex;
-    position: relative;
-    right: 43px;
-    gap: 20px;
-    line-height: 0px;
-  }
-
-  .contactLink .resum {
-    display: block;
-    padding: 10px;
-    width: 102px;
-    border-radius: 8px;
-    color: #6070ff;
-    font-size: 75%;
-    float: left 15%;
-    border: 1px solid #6070ff;
-    align-items: center;
-  }
-
-  .card-one h3 {
-    color: rgb(19, 16, 16);
-    position: relative;
-    right: 47px;
-  }
-
-  .language ul li {
-    display: inline-flex;
+  
+  .template{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    text-decoration-line: none;
+    /* put all of this container in the center */
+    margin: 0 auto;
+    padding: 0 auto;
     justify-content: center;
-    padding: 2px 9px;
-    background: #ebebff;
-    border-radius: 8px;
-    color: #6070ff;
-    position: relative;
-    left: -59px;
-    margin-top: 5px;
-  }
-
-  .seeMore h3 {
-    color: #6070ff;
-    font-weight: 500;
-    border: 1px solid #6070ff;
-    padding: 2px 5px;
-    border-radius: 8px;
-    max-width: 50%;
-    position: relative;
-    left: 10px;
-  }
-
-  .about-me {
-    background-color: #fff;
+    align-items: center;
     text-align: center;
-    height: 980px;
-    padding: 24px;
-    margin: 0;
-    border-top-right-radius: 80px;
-    background-image: url("img/contact-mobile.svg");
-    background-position: right 50px;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    margin-top: 50px;
-    margin-bottom: 0%;
+    /* put all of this container in the center and item */
+    width: 327px;
+    margin-top: 10%;
   }
-
+  
   body .about-me {
     background-color: #fff;
     margin-bottom: -25%;
@@ -283,5 +214,10 @@
   .Contacting .btn:disabled {
     background: #fff;
     color: #5e6c84;
+  }
+
+  /*none display property*/
+  nav ul .Imgnoe{
+    display: none;
   }
 }
