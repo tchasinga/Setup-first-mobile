@@ -353,6 +353,7 @@
 
   .formController {
     margin: 8px auto;
+    margin-top: 20px;
   }
 
   .formController input {
@@ -361,12 +362,12 @@
     border: none;
     outline: none;
     padding: 4px 8px;
+   
   }
 
   .formController textarea {
     width: 35%;
     height: 170px;
-    border-radius: 8px;
     border: none;
     outline: none;
     padding: 4px 8px;
