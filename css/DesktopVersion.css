@@ -44,10 +44,13 @@
     position: absolute;
     top: 5px;
     left: 0;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #6070ff;
   }
 
   nav ul li a {
-    font-family: "Poppins";
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -58,15 +61,16 @@
   }
 
   main {
-    
-        display: grid;
-        grid-template-rows: repeat(1, 2fr);
-        justify-content: center;
-        align-items: center;
-        height: 900px;
-        background: white;
-        background-image: url(../DeskImg/Header\ bg@2x.svg);
-        background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background: white;
+    background-image: url(../DeskImg/Header\ bg@2x.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 200px;
   }
 
   .titleText h1 {
@@ -97,10 +101,19 @@
 
   .LinkNetwork ul li {
     display: inline-block;
-    margin: 10px;
-    margin-top: 0px;
-    
+    position: relative;
+    top: -265px;
+    gap: 40px;
+    margin-right: 20px;
+  }
 
+  .LinkNetwork ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: -100px;
+    float: left;
   }
 
   /* none displayer session */
@@ -112,7 +125,7 @@
   .template {
     display: grid;
     justify-content: center;
-    max-width: 700px;
+    max-width: 80%;
     margin: 0 auto;
     grid-template-columns: repeat(2, 1fr);
     background-color: #fff;
@@ -185,15 +198,25 @@
   }
 
   .aboutme h1 {
-    font-size: 24px;
+    width: 447px;
+    height: 33px;
+    font-style: normal;
     font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
     color: #091e42;
   }
 
   .aboutme p {
-    font-size: 14px;
-    color: #344563;
+    width: 447px;
+    height: 102px;
+    font-style: normal;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
   }
 
   .aboutme .connect {
@@ -228,6 +251,11 @@
     font-style: normal;
   }
 
+  .framWork .Skills .flesh {
+    width: 50px;
+    height: 50px;
+  }
+
   .Skills .PostioningFlex {
     display: flex;
     justify-content: start;
@@ -250,23 +278,34 @@
     height: 846px;
     padding: 24px;
     border-top-left-radius: 100px;
-    background-image: url("img/contact-mobile.svg");
-    background-position: right 50px;
+    background-image: url("../DeskImg/contact\ form\ background\ shapes@2x.svg");
     background-repeat: no-repeat;
-    margin-top: 0;
-    margin-bottom: 0;
+    background-position: center;
   }
 
   .Contacting h1 {
-    color: #fff;
-    font-size: 40px;
+    margin: 8px auto;
+    width: 447px;
+    height: 33px;
+    font-style: normal;
     font-weight: 700;
-    margin-top: 103px;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 30px;
   }
 
   .Contacting p {
-    font-size: 20px;
+    margin: 8px auto;
+    width: 569px;
+    height: 102px;
+    font-style: normal;
     font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
     color: #ebebff;
   }
 
@@ -275,7 +314,7 @@
   }
 
   .formController input {
-    width: 95%;
+    width: 35%;
     height: 48px;
     border-radius: 8px;
     border: none;
@@ -284,7 +323,7 @@
   }
 
   .formController textarea {
-    width: 95%;
+    width: 35%;
     height: 170px;
     border-radius: 8px;
     border: none;
@@ -294,12 +333,14 @@
 
   .Contacting .btn {
     display: block;
+    justify-content: center;
     height: 48px;
     width: 142px;
     border-radius: 8px;
     color: #6070ff;
     font-size: 17px;
     border: 1px solid #6070ff;
+    margin: 8px auto;
   }
 
   .Contacting .btn:hover {
