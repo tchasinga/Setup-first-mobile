@@ -114,30 +114,66 @@
     color: #344563;
   }
 
-  .template .tempUl {
+  .techLangua ul li {
     display: flex;
-    list-style-type: disc !important;
-    align-items: left;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
+    width: 300px;
   }
 
-  .template .tempUl .Undisc {
-    margin-left: 20px;
+  .framWork ul li {
+    color: rgb(34, 30, 30);
+    display: flex;
+    gap: 10px;
+    background: #dfe1e6;
+    margin: 10px;
+    position: relative;
+    right: 10%;
+  }
+
+  .techLanguage ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
+  }
+
+  .template .tempUl li {
+    margin-right: 30px;
     color: #6b778c;
     list-style-type: disc;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     position: relative;
     left: -28px;
   }
 
-  .template .tempUl .Undisc:first-child {
+  .framWorking .html li {
+    color: rgb(34, 30, 30);
+    display: inline-flex;
+    background: #dfe1e6;
+    margin: 10px;
+    position: relative;
+    border-radius: 10px;
+    right: 10%;
+    width: 300px;
+    height: 100px;
+    padding: 0 12px;
+  }
+
+  .template .tempUl li:first-child {
     list-style-type: none !important;
     text-decoration: none !important;
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 30px;
     color: #344563;
     font-weight: 500;
+  }
+
+  .template .tempUl {
+    display: flex;
+    list-style-type: disc !important;
+    align-items: left;
+    flex-wrap: wrap;
   }
 
   .template .tempLang {
@@ -179,6 +215,7 @@
   .stayThere {
     background: #fff;
     height: 1400px;
+    border-top-right-radius: 80px;
   }
 
   .stayThere h1 {
@@ -257,42 +294,6 @@
     align-items: center;
   }
 
-  .techLangua ul li {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #dfe1e6;
-    width: 300px;
-  }
-
-  .framWork ul li {
-    color: rgb(34, 30, 30);
-    display: flex;
-    gap: 10px;
-    background: #dfe1e6;
-    margin: 10px;
-    position: relative;
-    right: 10%;
-  }
-
-  .techLanguage ul li {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #dfe1e6;
-  }
-
-  .framWorking .html li {
-    color: rgb(34, 30, 30);
-    display: inline-flex;
-    background: #dfe1e6;
-    margin: 10px;
-    position: relative;
-    border-radius: 10px;
-    right: 10%;
-    width: 300px;
-    height: 100px;
-    padding: 0 12px;
-  }
-
   .framWorking .keyCode {
     justify-content: center;
     text-align: center;
@@ -308,6 +309,19 @@
     height: 50px;
     position: relative;
     top: 10px;
+  }
+
+  .ImgTagOffing img {
+    display: none;
+  }
+
+  .templateimage img {
+    display: none;
+  }
+
+  body .stayThere {
+    background-color: #fff;
+    margin-bottom: -23%;
   }
 
   .techLangua ul li img {
@@ -417,14 +431,6 @@
   }
 
   .ImgTagOffing {
-    display: none;
-  }
-
-  .ImgTagOffing img {
-    display: none;
-  }
-
-  .templateimage img {
     display: none;
   }
 }
