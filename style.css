@@ -213,6 +213,12 @@
     left: 30px;
   }
 
+  .contactLink ul {
+    display: inline-flex;
+    gap: 30px;
+    line-height: 0%;
+  }
+
   .stayThere .BeLinked ul {
     display: flex;
     gap: 25px;
@@ -251,6 +257,29 @@
     align-items: center;
   }
 
+  .techLangua ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
+    width: 300px;
+  }
+
+  .framWork ul li {
+    color: rgb(34, 30, 30);
+    display: flex;
+    gap: 10px;
+    background: #dfe1e6;
+    margin: 10px;
+    position: relative;
+    right: 10%;
+  }
+
+  .techLanguage ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
+  }
+
   .framWorking .html li {
     color: rgb(34, 30, 30);
     display: inline-flex;
@@ -274,11 +303,11 @@
     font-weight: lighter;
   }
 
-  .techLangua ul li {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #dfe1e6;
-    width: 300px;
+  .framWork img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
   }
 
   .techLangua ul li img {
@@ -294,40 +323,11 @@
     margin-bottom: -25%;
   }
 
-  .contactLink ul {
-    display: inline-flex;
-    gap: 30px;
-    line-height: 0%;
-  }
-
   .framWork .code {
     margin-top: 20px;
     margin-left: 20px;
     display: inline-flex;
     gap: 140px;
-  }
-
-  .framWork img {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 10px;
-  }
-
-  .framWork ul li {
-    color: rgb(34, 30, 30);
-    display: flex;
-    gap: 10px;
-    background: #dfe1e6;
-    margin: 10px;
-    position: relative;
-    right: 10%;
-  }
-
-  .techLanguage ul li {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #dfe1e6;
   }
 
   .techLanguage ul li img {
