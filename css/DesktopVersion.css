@@ -151,7 +151,7 @@
     padding: 20px;
   }
 
-  .template img {
+  .template .ImgTagOffing {
     width: 100%;
   }
 
@@ -168,7 +168,7 @@
     flex-wrap: wrap;
   }
 
-  .template .tempUl li {
+  .template .tempUl .Idcode {
     margin-right: 27px;
     color: #6b778c;
     list-style-type: disc;
@@ -432,5 +432,27 @@
   /* None display */
   nav ul .ImgCodeOn {
     display: none;
+  }
+
+  .stayThere {
+    display: none;
+  }
+
+  .ImgTagOnning {
+    display: none;
+  }
+
+  /*
+  .fullContainer .templateimage .ImgTagOffing {
+    display: none;
+  }
+*/
+
+  /* .templateImge img {
+    display: none !important;
+  }
+*/
+  .templateImg .ImgTagOnning {
+    display: none !important;
   }
 }

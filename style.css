@@ -70,7 +70,6 @@
 
     /* put all of this container in the center */
     margin: 0 auto;
-    padding: 0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -78,8 +77,218 @@
     /* put all of this container in the center and item */
     width: 327px;
     margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #fff;
+    padding: -25px;
+    border-radius: 16px;
   }
 
+  .template img {
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .template h1 {
+    width: 295px;
+    height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 44px;
+    color: #172b4d;
+    float: left;
+    justify-content: flex-start;
+    position: relative;
+    left: -16%;
+  }
+
+  .template p {
+    width: 295px;
+    height: 76px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .template .tempUl {
+    display: flex;
+    list-style-type: disc !important;
+    align-items: left;
+    flex-wrap: wrap;
+  }
+
+  .template .tempUl .Undisc {
+    margin-left: 20px;
+    color: #6b778c;
+    list-style-type: disc;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    left: -28px;
+  }
+
+  .template .tempUl .Undisc:first-child {
+    list-style-type: none !important;
+    text-decoration: none !important;
+    margin-left: 0;
+    margin-right: 20px;
+    color: #344563;
+    font-weight: 500;
+  }
+
+  .template .tempLang {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
+
+  .template .tempLang .luga {
+    font-size: 12px;
+    padding: 5px 5px;
+    color: #6070ff;
+    border-radius: 8px;
+    background: #ebebff;
+    margin-right: 10px;
+  }
+
+  .template .seePro {
+    color: #5969f1;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 102px;
+    height: 29px;
+    padding: 8px 22px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    position: relative;
+    left: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-me {
+    display: none;
+  }
+
+  .stayThere {
+    background: #fff;
+    height: 1400px;
+  }
+
+  .stayThere h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #172b4d;
+    padding: 25px;
+    align-items: center;
+    padding-top: 50px;
+    position: relative;
+    top: 90px;
+  }
+
+  .stayThere p {
+    width: 327px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #344563;
+    padding: 25px;
+  }
+
+  .stayThere .connect {
+    width: 217px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    position: relative;
+    left: 30px;
+  }
+
+  .stayThere .BeLinked ul {
+    display: flex;
+    gap: 25px;
+  }
+
+  .stayThere .resum {
+    color: #5969f1;
+    width: 163px;
+    padding: 8px 22px;
+    position: relative;
+    left: 15px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+  }
+
+  .framWorking .coding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .framWorking img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 23px;
+  }
+
+  .framWorking .html {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .framWorking .html li {
+    color: rgb(34, 30, 30);
+    display: inline-flex;
+    background: #dfe1e6;
+    margin: 10px;
+    position: relative;
+    border-radius: 10px;
+    right: 10%;
+    width: 300px;
+    height: 100px;
+    padding: 0 12px;
+  }
+
+  .framWorking .keyCode {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 10px;
+    font-weight: lighter;
+  }
+
+  .techLangua ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
+    width: 300px;
+  }
+
+  .techLangua ul li img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+  }
+
+  /* Working on Card side */
   body .about-me {
     background-color: #fff;
     margin-bottom: -25%;
@@ -204,6 +413,18 @@
 
   /* none display property */
   nav ul .Imgnoe {
+    display: none;
+  }
+
+  .ImgTagOffing {
+    display: none;
+  }
+
+  .ImgTagOffing img {
+    display: none;
+  }
+
+  .templateimage img {
     display: none;
   }
 }
