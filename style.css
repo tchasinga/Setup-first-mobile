@@ -186,6 +186,7 @@
   .template .tempLang .luga {
     font-size: 12px;
     padding: 5px 5px;
+    float: initial;
     color: #6070ff;
     border-radius: 8px;
     background: #ebebff;
