@@ -63,130 +63,62 @@
     margin-top: -15px;
   }
 
-  .card-id {
+  .card-id .template {
     display: grid;
     grid-template-columns: repeat(1, 2fr);
     text-decoration-line: none;
-    /* put all of this container in the center*/
+
+    /* put all of this container in the center */
     margin: 0 auto;
-    padding: 0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* put all of this container in the center and item*/
 
+    /* put all of this container in the center and item */
     width: 327px;
     margin-top: 10%;
-  }
-
-  .card-one {
-    margin-top: 20px;
-    background-color: white;
-    width: 327px;
-    height: 552px;
-    border-radius: 16px;
-    margin-bottom: 30px;
-
-    transition: all 0.5 ease;
-  }
-
-  .tonic {
-    color: rgb(8, 8, 8);
-    font-size: 20px;
-    position: relative;
-    right: 89px;
-  }
-
-  .card-one ul li {
-    color: rgb(32, 30, 30);
-    display: inline-flex;
-    position: relative;
-    right: 43px;
-    gap: 20px;
-    line-height: 0px;
-  }
-
-  .contactLink .resum {
-    display: block;
-    padding: 10px;
-    width: 102px;
-    border-radius: 8px;
-    color: #6070ff;
-    font-size: 75%;
-    float: left 15%;
-    border: 1px solid #6070ff;
-    align-items: center;
-  }
-
-  .card-one h3 {
-    color: rgb(19, 16, 16);
-    position: relative;
-    right: 47px;
-  }
-
-  .language ul li {
-    display: inline-flex;
-    justify-content: center;
-    padding: 2px 9px;
-    background: #ebebff;
-    border-radius: 8px;
-    color: #6070ff;
-    position: relative;
-    left: -59px;
-    margin-top: 5px;
-  }
-
-  .seeMore h3 {
-    color: #6070ff;
-    font-weight: 500;
-    border: 1px solid #6070ff;
-    padding: 2px 5px;
-    border-radius: 8px;
-    max-width: 50%;
-    position: relative;
-    left: 10px;
-  }
-
-  .about-me {
+    margin-bottom: 10%;
     background-color: #fff;
-    text-align: center;
-    height: 980px;
-    padding: 24px;
-    margin: 0px;
-    border-top-right-radius: 80px;
-    background-image: url("img/contact-mobile.svg");
-    background-position: right 50px;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    margin-top: 50px;
-    margin-bottom: 0%
-   
+    padding: -25px;
+    border-radius: 16px;
   }
 
-  body .about-me{
-    background-color:#fff;
-    margin-bottom: -25%;
-  }
- 
-
-  .contactLink ul {
-    display: inline-flex;
-    gap: 30px;
-    line-height: 0%;
-  }
-
-  .framWork .code {
+  .template img {
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
     margin-top: 20px;
-    margin-left: 20px;
-    display: inline-flex;
-    gap: 140px;
   }
 
-  .framWork img {
-    width: 50px;
-    height: 50px;
+  .template h1 {
+    width: 295px;
+    height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 44px;
+    color: #172b4d;
+    float: left;
+    justify-content: flex-start;
     position: relative;
-    top: 10px;
+    left: -16%;
+  }
+
+  .template p {
+    width: 295px;
+    height: 76px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .techLangua ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dfe1e6;
+    width: 300px;
   }
 
   .framWork ul li {
@@ -203,6 +135,213 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #dfe1e6;
+  }
+
+  .template .tempUl li {
+    margin-right: 30px;
+    color: #6b778c;
+    list-style-type: disc;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    left: -28px;
+  }
+
+  .framWorking .html li {
+    color: rgb(34, 30, 30);
+    display: inline-flex;
+    background: #dfe1e6;
+    margin: 10px;
+    position: relative;
+    border-radius: 10px;
+    right: 10%;
+    width: 300px;
+    height: 100px;
+    padding: 0 12px;
+  }
+
+  .template .tempUl li:first-child {
+    list-style-type: none !important;
+    text-decoration: none !important;
+    margin-left: 0;
+    margin-right: 30px;
+    color: #344563;
+    font-weight: 500;
+  }
+
+  .template .tempUl {
+    display: flex;
+    list-style-type: disc !important;
+    align-items: left;
+    flex-wrap: wrap;
+  }
+
+  .template .tempLang {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-left: -30px;
+  }
+
+  .template .tempLang .luga {
+    font-size: 12px;
+    padding: 5px 5px;
+    color: #6070ff;
+    border-radius: 8px;
+    background: #ebebff;
+    margin-right: 10px;
+  }
+
+  .template .seePro {
+    color: #5969f1;
+    font-size: 18px;
+    font-weight: bolder;
+    width: 102px;
+    height: 29px;
+    padding: 8px 22px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    position: relative;
+    left: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-me {
+    display: none;
+  }
+
+  .stayThere {
+    background: #fff;
+    height: 1400px;
+    border-top-right-radius: 80px;
+  }
+
+  .stayThere h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #172b4d;
+    padding: 25px;
+    align-items: center;
+    padding-top: 50px;
+    position: relative;
+    top: 90px;
+  }
+
+  .stayThere p {
+    width: 327px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #344563;
+    padding: 25px;
+  }
+
+  .stayThere .connect {
+    width: 217px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    position: relative;
+    left: 30px;
+  }
+
+  .contactLink ul {
+    display: inline-flex;
+    gap: 30px;
+    line-height: 0%;
+  }
+
+  .stayThere .BeLinked ul {
+    display: flex;
+    gap: 25px;
+  }
+
+  .stayThere .resum {
+    color: #5969f1;
+    width: 163px;
+    padding: 8px 22px;
+    position: relative;
+    left: 15px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+  }
+
+  .framWorking .coding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .framWorking img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 23px;
+  }
+
+  .framWorking .html {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .framWorking .keyCode {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 10px;
+    font-weight: lighter;
+  }
+
+  .framWork img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+  }
+
+  .ImgTagOffing img {
+    display: none;
+  }
+
+  .templateimage img {
+    display: none;
+  }
+
+  body .stayThere {
+    background-color: #fff;
+    margin-bottom: -23%;
+  }
+
+  .techLangua ul li img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+  }
+
+  /* Working on Card side */
+  body .about-me {
+    background-color: #fff;
+    margin-bottom: -25%;
+  }
+
+  .framWork .code {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-flex;
+    gap: 140px;
   }
 
   .techLanguage ul li img {
@@ -222,9 +361,8 @@
     background-image: url("img/contact-mobile.svg");
     background-position: right 50px;
     background-repeat: no-repeat;
-    margin-top: 0px;
-    margin-bottom: 0px;
-   
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .Contacting h1 {
@@ -285,5 +423,14 @@
   .Contacting .btn:disabled {
     background: #fff;
     color: #5e6c84;
+  }
+
+  /* none display property */
+  nav ul .Imgnoe {
+    display: none;
+  }
+
+  .ImgTagOffing {
+    display: none;
   }
 }
