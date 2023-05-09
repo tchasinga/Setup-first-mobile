@@ -390,12 +390,14 @@
     border: none;
     outline: none;
     padding: 4px 8px;
+    
   }
 
   .formControlling textarea {
     width: 95%;
     height: 170px;
     border-radius: 8px;
+    color: brown;
     border: none;
     outline: none;
     padding: 4px 8px;
