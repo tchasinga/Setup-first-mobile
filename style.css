@@ -147,18 +147,7 @@
     left: -28px;
   }
 
-  .framWorking .html li {
-    color: rgb(34, 30, 30);
-    display: inline-flex;
-    background: #dfe1e6;
-    margin: 10px;
-    position: relative;
-    border-radius: 10px;
-    right: 10%;
-    width: 300px;
-    height: 100px;
-    padding: 0 12px;
-  }
+
 
   .template .tempUl li:first-child {
     list-style-type: none !important;
@@ -280,30 +269,9 @@
     padding: 10px;
   }
 
-  .framWorking img {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 23px;
-  }
+  
 
-  .framWorking .html {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
 
-  .framWorking .keyCode {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    position: relative;
-    top: 10px;
-    font-weight: lighter;
-  }
 
   .framWork img {
     width: 50px;
