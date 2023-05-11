@@ -147,7 +147,17 @@
     left: -28px;
   }
 
-
+  .framWorking .html li {
+    display: flex;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin-right: 10%;
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+  }
 
   .template .tempUl li:first-child {
     list-style-type: none !important;
@@ -215,7 +225,7 @@
     color: #172b4d;
     padding: 25px;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 45px;
     position: relative;
     top: 90px;
   }
@@ -227,6 +237,7 @@
     font-size: 16px;
     color: #344563;
     padding: 25px;
+    margin-top: 40px;
   }
 
   .stayThere .connect {
@@ -253,12 +264,13 @@
 
   .stayThere .resum {
     color: #5969f1;
-    width: 163px;
+    width: 133px;
     padding: 8px 22px;
     position: relative;
-    left: 15px;
+    left: 22px;
     border: 1px solid #6070ff;
     border-radius: 8px;
+    font-weight: lighter;
   }
 
   .framWorking .coding {
@@ -266,18 +278,23 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
   }
 
-  
-
-
+  .framWorking .lettering {
+    color: #172b4d;
+    position: relative;
+    bottom: 55px;
+  }
 
   .framWork img {
     width: 50px;
     height: 50px;
     position: relative;
     top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .ImgTagOffing img {
@@ -288,17 +305,30 @@
     display: none;
   }
 
-  body .stayThere {
-    background-color: #fff;
-    margin-bottom: -23%;
-  }
-
   .techLangua ul li img {
     width: 30px;
     height: 30px;
     position: relative;
     top: 10px;
   }
+
+  .techLanguage ul li img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+  }
+
+  .framWorking .html li img {
+    width: 50px;
+    height: 50px;
+  }
+
+  body .stayThere {
+    background-color: #fff;
+    margin-bottom: -23%;
+  }
+
 
   /* Working on Card side */
   body .about-me {
@@ -311,13 +341,6 @@
     margin-left: 20px;
     display: inline-flex;
     gap: 140px;
-  }
-
-  .techLanguage ul li img {
-    width: 30px;
-    height: 30px;
-    position: relative;
-    top: 10px;
   }
 
   .ContactingForming {
@@ -358,7 +381,6 @@
     border: none;
     outline: none;
     padding: 4px 8px;
-    
   }
 
   .formControlling textarea {
