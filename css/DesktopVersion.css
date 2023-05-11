@@ -68,12 +68,14 @@
     grid-template-rows: repeat(1fr);
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: 900px;
     background: white;
     background-image: url(../DeskImg/Header\ bg@2x.svg);
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-left-radius: 200px;
+    padding-left: 50px;
   }
 
   .titleText .beConnect {
@@ -87,7 +89,7 @@
   }
 
   .titleText h1 {
-    width: 920px;
+    width: 100%;
     height: 122px;
     font-style: normal;
     font-weight: 700;
@@ -223,39 +225,36 @@
     gap: 20px;
     padding: 80px;
     margin-top: 50px;
-    height: 65vh;
+    height: 80vh;
   }
 
   .aboutme {
-    position: relative;
-    left: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
   }
 
   .aboutme h1 {
-    width: 447px;
-    height: 33px;
+    width: 100%;
+    height: 10px;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 52px;
     display: flex;
     align-items: center;
     color: #091e42;
   }
 
   .aboutme p {
-    width: 447px;
-    height: 102px;
+    width: 100%;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     color: #344563;
   }
 
   .aboutme .resum {
     width: 155px;
-    height: 24px;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -271,18 +270,23 @@
   }
 
   .aboutme .resum:hover {
-    background-color: #396df2;
+    background: #6070ff;
     color: #fff;
   }
 
   .aboutme .resum:enabled {
-    background-color: #fff;
+    background: #fff;
     color: #396df2;
   }
 
-  .aboutme .resum:enabled:hover {
-    background-color: #396df2;
+  .aboutme .resum:active {
+    background: #2230d2;
     color: #fff;
+  }
+
+  .aboutme .resum:disabled {
+    background-color: #fff;
+    color: #344563;
   }
 
   .aboutme .connect {
@@ -311,14 +315,13 @@
     gap: 20px;
     line-height: 15px;
     position: relative;
-    right: 100px;
   }
 
   .framWork .Skills li span {
     display: flex;
     justify-content: space-between;
     color: #344563;
-    font-weight: normal;
+    font-weight: 200;
     font-size: 20px;
     font-style: normal;
     border-bottom: 1px solid #dfe1e6;
@@ -327,15 +330,19 @@
     height: -30px;
   }
 
+  .framWork .customer {
+    font-weight: normal;
+    font-size: medium;
+  }
+
   .framWork .Skills .flesh {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
   }
 
   .Skills .PostioningFlex {
     display: flex;
-    justify-content: start;
-    flex-wrap: wrap;
+    flex-direction: row;
   }
 
   .Skills .PostioningFlex .know {
@@ -345,7 +352,7 @@
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 8px;
-    width: 100px;
+    width: 80px;
     justify-content: start;
   }
 
@@ -353,7 +360,7 @@
 
   body .about-me {
     background-color: #fff;
-    margin-bottom: -5%;
+    margin-bottom: -15%;
   }
 
   .ContactingForming {
@@ -378,6 +385,7 @@
     line-height: 52px;
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #fff;
     margin-bottom: 30px;
   }
@@ -446,6 +454,26 @@
     padding: 4px 22px;
     border: 1px solid #6070ff;
     border-radius: 8px;
+  }
+
+  .template .seePro:hover {
+    background: #6070ff;
+    color: #fff;
+  }
+
+  .template .seePro:enabled {
+    background: #fff;
+    color: #6070ff;
+  }
+
+  .template .seePro:active {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  .template .seePro:disabled {
+    background-color: #fff;
+    color: #344563;
   }
 
   /* None display */

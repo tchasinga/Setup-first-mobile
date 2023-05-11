@@ -289,10 +289,11 @@
     padding: 30px;
   }
 
-  .framWorking .lettering {
+  .framWorking p {
     color: #172b4d;
     position: relative;
     bottom: 55px;
+    right: 10px;
   }
 
   .framWork img {
