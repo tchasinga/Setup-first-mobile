@@ -12,6 +12,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #dfe1e6;
+    height: -webkit-fill-available;
   }
 
   header {
@@ -222,6 +223,12 @@
     gap: 20px;
     padding: 80px;
     margin-top: 50px;
+    height: 65vh;
+  }
+
+  .aboutme {
+    position: relative;
+    left: 100px;
   }
 
   .aboutme h1 {
@@ -263,6 +270,21 @@
     border-radius: 8px;
   }
 
+  .aboutme .resum:hover {
+    background-color: #396df2;
+    color: #fff;
+  }
+
+  .aboutme .resum:enabled {
+    background-color: #fff;
+    color: #396df2;
+  }
+
+  .aboutme .resum:enabled:hover {
+    background-color: #396df2;
+    color: #fff;
+  }
+
   .aboutme .connect {
     font-weight: 500;
     font-size: 16px;
@@ -288,13 +310,15 @@
     background-color: #fff;
     gap: 20px;
     line-height: 15px;
+    position: relative;
+    right: 100px;
   }
 
   .framWork .Skills li span {
     display: flex;
     justify-content: space-between;
     color: #344563;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 20px;
     font-style: normal;
     border-bottom: 1px solid #dfe1e6;
@@ -317,12 +341,12 @@
   .Skills .PostioningFlex .know {
     background-color: #f7f7f9;
     color: #253858;
-    padding: 10px;
+    padding: 8px 15px;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 8px;
-    height: 100px;
-    justify-content: center;
+    width: 100px;
+    justify-content: start;
   }
 
   /* End point of conctact */
@@ -412,11 +436,6 @@
   .ContactingForming .btn:enabled {
     background: #fff;
     color: #6070ff;
-  }
-
-  .ContactingForming .btn:disabled {
-    background: #fff;
-    color: #5e6c84;
   }
 
   .template .seePro {

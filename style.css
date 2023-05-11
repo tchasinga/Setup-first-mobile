@@ -6,10 +6,17 @@
   list-style-type: none;
 }
 
+/* Dear code viewer , add in this media query a difference size of screen that gonna help
+  this website to match with different size of screen ... thank you
+*/
 @media only screen and (max-width: 375px),
   (max-width: 390px),
   (max-width: 392px),
-  (max-width: 414px) {
+  (max-width: 414px),
+  (max-width: 450px),
+  (max-width: 550px),
+  (max-width: 690px),
+  (max-width: 767px) {
   body {
     margin: 0;
     padding: 0;
@@ -270,7 +277,8 @@
     left: 22px;
     border: 1px solid #6070ff;
     border-radius: 8px;
-    font-weight: lighter;
+    font-weight: normal;
+    font-size: medium;
   }
 
   .framWorking .coding {
