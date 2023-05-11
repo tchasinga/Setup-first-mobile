@@ -225,7 +225,7 @@
     gap: 20px;
     padding: 80px;
     margin-top: 50px;
-    height: 80vh;
+    height: 65vh;
   }
 
   .aboutme {
@@ -360,7 +360,7 @@
 
   body .about-me {
     background-color: #fff;
-    margin-bottom: -15%;
+    margin-bottom: -5%;
   }
 
   .ContactingForming {
