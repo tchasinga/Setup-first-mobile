@@ -6,10 +6,17 @@
   list-style-type: none;
 }
 
+/* Dear code viewer , add in this media query a difference size of screen that gonna help
+  this website to match with different size of screen ... thank you
+*/
 @media only screen and (max-width: 375px),
   (max-width: 390px),
   (max-width: 392px),
-  (max-width: 414px) {
+  (max-width: 414px),
+  (max-width: 450px),
+  (max-width: 550px),
+  (max-width: 690px),
+  (max-width: 767px) {
   body {
     margin: 0;
     padding: 0;
@@ -148,16 +155,15 @@
   }
 
   .framWorking .html li {
-    color: rgb(34, 30, 30);
-    display: inline-flex;
-    background: #dfe1e6;
-    margin: 10px;
-    position: relative;
-    border-radius: 10px;
-    right: 10%;
+    display: flex;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin-right: 10%;
+    margin-top: 10px;
     width: 300px;
-    height: 100px;
-    padding: 0 12px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
   }
 
   .template .tempUl li:first-child {
@@ -226,7 +232,7 @@
     color: #172b4d;
     padding: 25px;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 45px;
     position: relative;
     top: 90px;
   }
@@ -238,6 +244,7 @@
     font-size: 16px;
     color: #344563;
     padding: 25px;
+    margin-top: 40px;
   }
 
   .stayThere .connect {
@@ -264,12 +271,14 @@
 
   .stayThere .resum {
     color: #5969f1;
-    width: 163px;
+    width: 133px;
     padding: 8px 22px;
     position: relative;
-    left: 15px;
+    left: 22px;
     border: 1px solid #6070ff;
     border-radius: 8px;
+    font-weight: normal;
+    font-size: medium;
   }
 
   .framWorking .coding {
@@ -277,32 +286,14 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
   }
 
-  .framWorking img {
-    width: 50px;
-    height: 50px;
+  .framWorking p {
+    color: #172b4d;
     position: relative;
-    top: 23px;
-  }
-
-  .framWorking .html {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .framWorking .keyCode {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    position: relative;
-    top: 10px;
-    font-weight: lighter;
+    bottom: 55px;
+    right: 10px;
   }
 
   .framWork img {
@@ -310,6 +301,9 @@
     height: 50px;
     position: relative;
     top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .ImgTagOffing img {
@@ -320,16 +314,28 @@
     display: none;
   }
 
-  body .stayThere {
-    background-color: #fff;
-    margin-bottom: -23%;
-  }
-
   .techLangua ul li img {
     width: 30px;
     height: 30px;
     position: relative;
     top: 10px;
+  }
+
+  .techLanguage ul li img {
+    width: 30px;
+    height: 29px;
+    position: relative;
+    top: 10px;
+  }
+
+  .framWorking .html li img {
+    width: 50px;
+    height: 50px;
+  }
+
+  body .stayThere {
+    background-color: #fff;
+    margin-bottom: -23%;
   }
 
   /* Working on Card side */
@@ -343,13 +349,6 @@
     margin-left: 20px;
     display: inline-flex;
     gap: 140px;
-  }
-
-  .techLanguage ul li img {
-    width: 30px;
-    height: 30px;
-    position: relative;
-    top: 10px;
   }
 
   .ContactingForming {
@@ -396,6 +395,7 @@
     width: 95%;
     height: 170px;
     border-radius: 8px;
+    color: brown;
     border: none;
     outline: none;
     padding: 4px 8px;
