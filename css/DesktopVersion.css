@@ -225,7 +225,7 @@
     gap: 20px;
     padding: 80px;
     margin-top: 50px;
-    height: 65vh;
+    height: 140vh;
   }
 
   .aboutme {
@@ -314,7 +314,6 @@
     background-color: #fff;
     gap: 20px;
     line-height: 15px;
-    position: relative;
   }
 
   .framWork .Skills li span {
