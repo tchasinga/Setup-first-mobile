@@ -219,7 +219,7 @@
   .about-me {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 2fr);
     background-color: #fff;
     border-top-right-radius: 80px;
     gap: 20px;
@@ -314,6 +314,8 @@
     background-color: #fff;
     gap: 20px;
     line-height: 15px;
+    position: relative;
+    left: 100px;
   }
 
   .framWork .Skills li span {
