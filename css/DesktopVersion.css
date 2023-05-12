@@ -461,9 +461,6 @@
   .template .seePro:hover {
     transform: scale(1.1);
     cursor: pointer;
-  }
-
-  .template .seePro:hover {
     background: #6070ff;
     color: #fff;
   }
