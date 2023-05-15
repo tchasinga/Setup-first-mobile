@@ -183,7 +183,7 @@ Remember to utilize your own setting argument in node properties; these are just
 <!-- CONTRIBUTING -->
 
 ## 🚀 Live Demo <a name='demo'></a>
->Here's the live demo of my website online portfolio click this [Link below](https://stackoverflow.com/questions/tagged/javascript) 
+>Here's the live demo of my website online portfolio click this [Link below](https://tchasinga.github.io/Setup-first-mobile/) 
 
 
 
