@@ -17,6 +17,9 @@
   (max-width: 550px),
   (max-width: 690px),
   (max-width: 767px) {
+
+   
+
   body {
     margin: 0;
     padding: 0;
@@ -156,11 +159,12 @@
 
   .framWorking .html li {
     display: flex;
+    justify-content: flex-start;
     background: #f7f7f9;
     border-radius: 8px;
-    margin-right: 10%;
+    margin-right: 20px;
     margin-top: 10px;
-    width: 300px;
+    width: 90%;
     height: 50px;
     color: #fff;
     padding: 5px 10px;
@@ -331,6 +335,7 @@
   .framWorking .html li img {
     width: 50px;
     height: 50px;
+   
   }
 
   body .stayThere {
@@ -424,6 +429,18 @@
   .ContactingForming .btn:disabled {
     background: #fff;
     color: #5e6c84;
+  }
+
+  /*Full navbar responsive*/
+  nav ul .ImgCodeOn {
+     width: 30px;
+     justify-content: safe;
+     position: relative;
+      right: inherit;
+     aspect-ratio: 4/5;
+     object-fit: contain;
+     /*backdrop-filter: blur(9px);*/
+
   }
 
   /* none display property */
