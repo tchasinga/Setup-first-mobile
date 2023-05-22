@@ -7,7 +7,7 @@ menuHamburger.addEventListener('click', () => {
   menuHamburger.style.display = 'none';
 });
 
-closeTage.addEventListener('click',()=>{
-  navLinks.classList.remove('mobile-menu')
-  menuHamburger.style.display = "block";
-})
+closeTage.addEventListener('click', () => {
+  navLinks.classList.remove('mobile-menu');
+  menuHamburger.style.display = 'block';
+});

@@ -127,6 +127,13 @@
     border-bottom: 1px solid #dfe1e6;
   }
 
+  .nav-links ul li {
+    background: linear-gradient(90deg, #fff, #fff, #fff, #fff, #fff, #fff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 0.3s linear infinite;
+  }
+
   .template .tempUl li {
     margin-right: 30px;
     color: #6b778c;
@@ -148,6 +155,13 @@
     height: 50px;
     color: #fff;
     padding: 5px 10px;
+  }
+
+  .navbar .nav-links ul li {
+    margin: 25px 0;
+    font-size: 1.9rem;
+    color: #fff;
+    font-weight: bold;
   }
 
   .template .tempUl li:first-child {
@@ -246,6 +260,13 @@
     display: inline-flex;
     gap: 30px;
     line-height: 0%;
+  }
+
+  .nav-links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
   }
 
   .stayThere .BeLinked ul {
@@ -412,12 +433,11 @@
 
   /* Menu view mobile first */
 
-  header{
+  header {
     background: white;
     margin-top: 0;
     height: 10vh;
   }
-
 
   .navbar .menu-humberger {
     display: block;
@@ -425,7 +445,6 @@
     top: 20px;
     right: 30px;
     width: 35px;
-    color: brown;
   }
 
   .navbar .closeHumberger {
@@ -449,26 +468,17 @@
     backdrop-filter: blur(8px);
     background: #5968f188;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: -100%;
     transition: all 0.5s ease-in-out;
-  }
-
-  .nav-links ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     color: white;
   }
 
-  .navbar .nav-links ul li {
-    margin: 25px 0;
-    font-size: 1.2rem;
+  .nav-links ul .Coloring {
     color: white;
-    font-weight: bold;
   }
 
   .nav-links.mobile-menu {

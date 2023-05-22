@@ -15,7 +15,6 @@
     height: -webkit-fill-available;
   }
 
-
   /* code process manager nave */
   header {
     position: fixed;
@@ -49,8 +48,34 @@
     font-weight: bold;
   }
 
+  .LinkNetwork ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+
   .navbar .nav-links ul {
     display: flex;
+  }
+
+  .LinkNetwork ul li {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: -59px;
+    margin: 10px;
+  }
+
+  .template .tempUl li {
+    margin-right: 27px;
+    color: #6b778c;
+    list-style-type: disc;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    left: -38px;
   }
 
   .navbar .nav-links ul li {
@@ -125,23 +150,7 @@
     flex-grow: 0;
   }
 
-  .LinkNetwork ul li {
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    left: -59px;
-    margin: 10px;
-  }
 
-  .LinkNetwork ul {
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
-    flex-wrap: nowrap;
-    margin: 0;
-
-    /* new */
-  }
 
   /* none displayer session */
   .imgOff {
@@ -177,16 +186,6 @@
     list-style-type: disc !important;
     align-items: left;
     flex-wrap: wrap;
-  }
-
-  .template .tempUl li {
-    margin-right: 27px;
-    color: #6b778c;
-    list-style-type: disc;
-    font-size: 18px;
-    font-weight: 400;
-    position: relative;
-    left: -38px;
   }
 
   .template .tempUl li:first-child {
