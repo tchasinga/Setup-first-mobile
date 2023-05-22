@@ -435,7 +435,7 @@
 
   header {
     background: white;
-    margin-top: 0;
+    position: inherit;
     height: 10vh;
   }
 
