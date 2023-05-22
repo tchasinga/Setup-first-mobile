@@ -95,7 +95,6 @@
   }
 
   /* code view process manager */
-
   main {
     display: grid;
     grid-template-rows: repeat(1fr);
@@ -149,8 +148,6 @@
     order: 1;
     flex-grow: 0;
   }
-
-
 
   /* none displayer session */
   .imgOff {
