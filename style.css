@@ -176,7 +176,6 @@
   .template .tempUl {
     display: flex;
     list-style-type: disc !important;
-    align-items: left;
     flex-wrap: wrap;
   }
 
@@ -435,8 +434,8 @@
 
   header {
     background: white;
-    position: inherit;
-    height: 10vh;
+    padding: 30px 0  30px  0;
+    height: 20px;
   }
 
   .navbar .menu-humberger {
@@ -458,6 +457,7 @@
   .navbar .logo {
     color: #5969f1;
     position: relative;
+    bottom: 1.9rem;
     left: 1rem;
   }
 

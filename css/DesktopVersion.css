@@ -12,7 +12,6 @@
     padding: 0;
     box-sizing: border-box;
     background: whitesmoke;
-    height: -webkit-fill-available;
   }
 
   /* code process manager nave */
@@ -97,7 +96,7 @@
   /* code view process manager */
   main {
     display: grid;
-    grid-template-rows: repeat(1fr);
+    grid-template-rows: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -181,7 +180,6 @@
   .template .tempUl {
     display: flex;
     list-style-type: disc !important;
-    align-items: left;
     flex-wrap: wrap;
   }
 
