@@ -11,67 +11,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background : whitesmoke;
+    background: whitesmoke;
     height: -webkit-fill-available;
   }
 
 
-/* code process manager nave*/
-header{
-  position: fixed;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 30px;
-  box-sizing: border-box;
-  background: #fff;
-}
-.navbar{
-  position: absolute;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 30px;
-  box-sizing: border-box;
+  /* code process manager nave */
+  header {
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    background: #fff;
+  }
 
-}
+  .navbar {
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+  }
 
-.navbar a{
-  color: black;
-}
+  .navbar a {
+    color: black;
+  }
 
-.navbar .logo{
-  font-size: 1rem;
-  font-weight: bold;
-}
+  .navbar .logo {
+    font-size: 1rem;
+    font-weight: bold;
+  }
 
-.navbar .nav-links ul{
-   display: flex;
-}
+  .navbar .nav-links ul {
+    display: flex;
+  }
 
-.navbar .nav-links ul  li{
-   margin: 0 15px;
-}
+  .navbar .nav-links ul li {
+    margin: 0 15px;
+  }
 
-.closeHumberger{
-   display: none;
-}
+  .closeHumberger {
+    display: none;
+  }
 
+  .navbar .menu-humberger {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 35px;
+  }
 
-.navbar  .menu-humberger{
-  display: none;
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  width: 35px;
-
-}
-
-  /*code view process manager*/
+  /* code view process manager */
 
   main {
     display: grid;

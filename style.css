@@ -410,12 +410,14 @@
     color: #5e6c84;
   }
 
-  /*Menu view mobile first*/
+  /* Menu view mobile first */
 
+  header{
+    background: white;
+    margin-top: 0;
+    height: 10vh;
+  }
 
-
-
- 
 
   .navbar .menu-humberger {
     display: block;
@@ -426,18 +428,15 @@
     color: brown;
   }
 
-
-  .navbar .closeHumberger{
+  .navbar .closeHumberger {
     display: block;
     position: absolute;
     top: 20px;
     right: 30px;
     width: 35px;
-    color: brown;
   }
 
-
-  .navbar .logo{
+  .navbar .logo {
     color: #5969f1;
     position: relative;
     left: 1rem;
@@ -472,7 +471,7 @@
     font-weight: bold;
   }
 
-     .nav-links.mobile-menu{
+  .nav-links.mobile-menu {
     margin-left: 0;
   }
 
