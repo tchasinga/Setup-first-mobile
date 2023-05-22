@@ -17,32 +17,12 @@
   (max-width: 550px),
   (max-width: 690px),
   (max-width: 767px) {
-
-   
-
   body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #dfe1e6;
     scroll-behavior: smooth;
-  }
-
-  nav ul {
-    display: flex;
-    justify-content: stretch;
-    gap: 70%;
-    margin: 0%;
-    padding: 25px;
-    background: white;
-  }
-
-  nav ul li {
-    font-size: 32px;
-    font-weight: 500;
-    color: #6070ff;
-    margin: 0 auto;
-    padding: 0 auto;
   }
 
   main {
@@ -335,7 +315,6 @@
   .framWorking .html li img {
     width: 50px;
     height: 50px;
-   
   }
 
   body .stayThere {
@@ -431,20 +410,74 @@
     color: #5e6c84;
   }
 
-  /*Full navbar responsive*/
-  nav ul .ImgCodeOn {
-     width: 30px;
-     justify-content: safe;
-     position: relative;
-      right: inherit;
-     aspect-ratio: 4/5;
-     object-fit: contain;
-     /*backdrop-filter: blur(9px);*/
+  /*Menu view mobile first*/
 
+
+
+
+ 
+
+  .navbar .menu-humberger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 35px;
+    color: brown;
+  }
+
+
+  .navbar .closeHumberger{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 35px;
+    color: brown;
+  }
+
+
+  .navbar .logo{
+    color: #5969f1;
+    position: relative;
+    left: 1rem;
+  }
+
+  .nav-links {
+    top: 0;
+    left: 0;
+    position: absolute;
+    backdrop-filter: blur(8px);
+    background: #5968f188;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100%;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .nav-links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+
+  .navbar .nav-links ul li {
+    margin: 25px 0;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+  }
+
+     .nav-links.mobile-menu{
+    margin-left: 0;
   }
 
   /* none display property */
-  nav ul .Imgnoe {
+  nav .ImgCodeOn {
     display: none;
   }
 

@@ -11,58 +11,67 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #dfe1e6;
+    background : whitesmoke;
     height: -webkit-fill-available;
   }
 
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    color: black;
-    padding: 10px;
-  }
 
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 90px;
-  }
+/* code process manager nave*/
+header{
+  position: fixed;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  background: #fff;
+}
+.navbar{
+  position: absolute;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
 
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    justify-content: flex-end; /* new */
-  }
+}
 
-  nav ul li {
-    display: inline-block;
-    margin-right: 50px;
-  }
+.navbar a{
+  color: black;
+}
 
-  nav ul .nameJacK {
-    position: absolute;
-    top: 5px;
-    left: 0;
-    font-weight: bold;
-    letter-spacing: 0px;
-    font-size: 20px;
-    color: #6070ff;
-    margin-left: 70px;
-  }
+.navbar .logo{
+  font-size: 1rem;
+  font-weight: bold;
+}
 
-  nav ul li a {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    align-items: center;
-    text-align: center;
-    color: #344563;
-  }
+.navbar .nav-links ul{
+   display: flex;
+}
+
+.navbar .nav-links ul  li{
+   margin: 0 15px;
+}
+
+.closeHumberger{
+   display: none;
+}
+
+
+.navbar  .menu-humberger{
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 35px;
+
+}
+
+  /*code view process manager*/
 
   main {
     display: grid;
