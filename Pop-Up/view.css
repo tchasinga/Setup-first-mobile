@@ -64,23 +64,24 @@
 }
 
 .card-header h2 {
-  width: 1056px;
-  height: 40px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
+  line-height: 2rem;
   color: #091e42;
 }
 
+.griding{
+    width: 100%;
+}
+
 .griding p {
-  width: 778px;
-  height: 271px;
+  width: 278px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.1rem;
   line-height: 30px;
 }
 

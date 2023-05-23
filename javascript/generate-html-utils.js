@@ -42,7 +42,7 @@ export const generateProjectPopUps = (projectDetails) => {
           </div>
           <div class="griding">
             <p>
-              ${descriptionlong}
+                ${descriptionlong}
             </p>
             <div class="btnn">
               <ul class="tags">
