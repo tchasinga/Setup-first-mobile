@@ -2,6 +2,11 @@ const menuHamburger = document.querySelector('.menu-humberger');
 const navLinks = document.querySelector('.nav-links');
 const closeTage = document.querySelector('.closeHumberger');
 
+document.querySelectorAll('.Golinks').forEach((element) => element.addEventListener('click', () => {
+  navLinks.classList.remove('mobile-menu');
+  menuHamburger.style.display = 'block';
+}));
+
 menuHamburger.addEventListener('click', () => {
   navLinks.classList.toggle('mobile-menu');
   menuHamburger.style.display = 'none';
@@ -24,3 +29,8 @@ sr.reveal('.LinkNetwork,.card-id,.portfolio,.about-me,.framWork ,.stayThere,.Con
   delay: 350,
   origin: 'right',
 });
+// tag set side
+
+// Get references to the mobile menu and its links
+
+// Add a click event listener to each o
