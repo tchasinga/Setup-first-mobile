@@ -1,10 +1,8 @@
-import projectsData from '../javascript/projects-data.js';
-import { generateProjectPopUps, generateTechnologyTags } from '../javascript/generate-html-utils.js';
+import projectsData from './projects-data.js';
+import { generateProjectPopUps } from './generate-html-utils.js';
 
 const projectCards = document.querySelector('#project');
 const modal = document.querySelector('#modal');
-
-
 
 const handleModalOpen = (id) => {
   const selectedProject = projectsData.find((project) => project.id === id);

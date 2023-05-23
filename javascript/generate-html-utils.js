@@ -1,27 +1,27 @@
 export const generateTechnologyTags = (technologies) => {
-    const html = technologies
-      .map((technology) => `<li><a href="#">${technology}</a></li>`)
-      .join('\n');
-    return html;
-  };
-  
-  export const generateProjectPopUps = (projectDetails) => {
-    const {
-      name,
-      role,
-      platform,
-      year,
-      descriptionlong,
-      featuredImage,
-      technologies,
-      linkToLiveVersion,
-      linkToSource,
-      techOne ,
-      techTwo ,
-      techThree,
-    } = projectDetails;
-  
-    return `
+  const html = technologies
+    .map((technology) => `<li><a href="#">${technology}</a></li>`)
+    .join('\n');
+  return html;
+};
+
+export const generateProjectPopUps = (projectDetails) => {
+  const {
+    name,
+    role,
+    platform,
+    year,
+    descriptionlong,
+    featuredImage,
+    // technologies,
+    linkToLiveVersion,
+    linkToSource,
+    techOne,
+    techTwo,
+    techThree,
+  } = projectDetails;
+
+  return `
       <div class="containinger">
         <div id="modal-card" class="card">
           <div class="card-body">
@@ -60,10 +60,10 @@ export const generateTechnologyTags = (technologies) => {
               </ul>
               <div class="btn-group">
                 <a href="${linkToLiveVersion}" class="btn btn-outline">
-                  See live <i class="fa fa-circle"></i>
+                  See live <img src="Svg/LinksIcon.svg" alt="">
                 </a>
                 <a href="${linkToSource}" class="btn btn-outline">
-                  See source <i class="fab fa-github-alt"></i>
+                  See source <img src="IconGitHubi.svg" alt="">
                 </a>
               </div>
             </div>
@@ -71,4 +71,4 @@ export const generateTechnologyTags = (technologies) => {
         </div>
       </div>
   `;
-  };
+};
