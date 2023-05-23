@@ -11,62 +11,92 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #dfe1e6;
-    height: -webkit-fill-available;
+    background: whitesmoke;
   }
 
+  /* code process manager nave */
   header {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    color: black;
     padding: 10px;
-  }
-
-  nav {
     display: flex;
-    justify-content: flex-end;
-    margin-left: 90px;
-  }
-
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    justify-content: flex-end; /* new */
-  }
-
-  nav ul li {
-    display: inline-block;
-    margin-right: 50px;
-  }
-
-  nav ul .nameJacK {
-    position: absolute;
-    top: 5px;
-    left: 0;
-    font-weight: bold;
-    letter-spacing: 0px;
-    font-size: 20px;
-    color: #6070ff;
-    margin-left: 70px;
-  }
-
-  nav ul li a {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    color: #344563;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    background: #fff;
   }
 
+  .navbar {
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+  }
+
+  .navbar a {
+    color: black;
+  }
+
+  .navbar .logo {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .LinkNetwork ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    flex-wrap: nowrap;
+    margin: 0;
+  }
+
+  .navbar .nav-links ul {
+    display: flex;
+  }
+
+  .LinkNetwork ul li {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: -59px;
+    margin: 10px;
+  }
+
+  .template .tempUl li {
+    margin-right: 27px;
+    color: #6b778c;
+    list-style-type: disc;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    left: -38px;
+  }
+
+  .navbar .nav-links ul li {
+    margin: 0 15px;
+  }
+
+  .closeHumberger {
+    display: none;
+  }
+
+  .navbar .menu-humberger {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 35px;
+  }
+
+  /* code view process manager */
   main {
     display: grid;
-    grid-template-rows: repeat(1fr);
+    grid-template-rows: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -118,24 +148,6 @@
     flex-grow: 0;
   }
 
-  .LinkNetwork ul li {
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    left: -59px;
-    margin: 10px;
-  }
-
-  .LinkNetwork ul {
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
-    flex-wrap: nowrap;
-    margin: 0;
-
-    /* new */
-  }
-
   /* none displayer session */
   .imgOff {
     display: none;
@@ -168,18 +180,7 @@
   .template .tempUl {
     display: flex;
     list-style-type: disc !important;
-    align-items: left;
     flex-wrap: wrap;
-  }
-
-  .template .tempUl li {
-    margin-right: 27px;
-    color: #6b778c;
-    list-style-type: disc;
-    font-size: 18px;
-    font-weight: 400;
-    position: relative;
-    left: -38px;
   }
 
   .template .tempUl li:first-child {
