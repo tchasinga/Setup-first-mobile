@@ -132,3 +132,41 @@ color: #344563;
   display: flex;
   gap: 20px;
 }
+
+
+@media only screen and (max-width: 375px),
+  (max-width: 390px),
+  (max-width: 392px),
+  (max-width: 414px),
+  (max-width: 450px),
+  (max-width: 550px),
+  (max-width: 690px),
+  (max-width: 767px) {
+
+    .keeper{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+       
+    }
+
+    .griding p{
+       width: 308px;
+       position: relative;
+       left: 10%;
+       }
+
+    .fourDvier{
+       display: grid;
+         grid-template-columns: repeat(1, 2fr);
+    }
+
+    .btn-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+
+  }

@@ -10,7 +10,7 @@ const projectsData = [
     descriptionlong:
         'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent ',
     featuredImage: 'Svg/1Portfolio.svg',
-    newImg: 'IconImg/1Screen.png',
+    newImg: 'Svg/1Portfolio.svg',
     technologies: ['HTML', 'CSS', 'ReactJs'],
     linkToLiveVersion: '#',
     linkToSource: '#',
@@ -35,6 +35,7 @@ const projectsData = [
     techOne: 'Html',
     techTwo: 'Css',
     techThree: 'ReactJs',
+    newImg: 'Svg/2Portfolio.svg',
   },
   {
     featuredImage: 'Svg/3Portfolio.svg',
@@ -54,6 +55,7 @@ const projectsData = [
     techOne: 'Html',
     techTwo: 'Css',
     techThree: 'ReactJs',
+    newImg: 'Svg/3Portfolio.svg',
 
   },
   {
@@ -73,5 +75,6 @@ const projectsData = [
     techOne: 'Html',
     techTwo: 'Css',
     techThree: 'ReactJs',
+    newImg: 'Svg/4Portfolio.svg',
   }];
 export default projectsData;
