@@ -168,9 +168,21 @@
   backdrop-filter: blur(9px);
 }
 
-.hidden{
+.hidden {
   display: none;
   transition: all 0.5s ease-in-out;
+}
+
+.displayer p {
+  color: brown;
+  font-size: 18px;
+  font-weight: 300;
+  justify-content: center;
+}
+
+span {
+  color: black;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 375px),
