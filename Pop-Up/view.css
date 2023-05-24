@@ -159,6 +159,16 @@
   backdrop-filter: blur(9px);
 }
 
+.DisplayMessage p{
+  color: brown;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.DisplayMessage span{
+  color: black;
+}
+
 @media only screen and (max-width: 375px),
   (max-width: 390px),
   (max-width: 392px),
