@@ -17,17 +17,16 @@ closeTage.addEventListener('click', () => {
   menuHamburger.style.display = 'block';
 });
 
-// eslint-disable-next-line no-undef
-const sr = ScrollReveal({
-  distance: '45px',
-  duration: 2700,
-  reset: true,
-});
-sr.reveal('.navbar', { delay: 350, origin: 'left' });
-sr.reveal('.titleText', { delay: 350, origin: 'right' });
-sr.reveal('.LinkNetwork,.card-id,.portfolio,.about-me,.framWork ,.stayThere,.ContactingForming', {
-  delay: 350,
-  origin: 'right',
-});
+const form = document.getElementById('myForm');
+const emailInput = document.getElementById('email');
+const errorMsg = document.getElementById('error-msg');
 
-let WordSwitch = document.querySelector('SwitchMode');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  if (emailInput.value === emailInput.value.toLowerCase()) {
+    form.submit();
+  } else {
+    errorMsg.classList.remove('hidden');
+  }
+});
