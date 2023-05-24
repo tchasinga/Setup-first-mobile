@@ -14,7 +14,7 @@
     crossorigin="anonymous" />
 
 
-
+    
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./css/DesktopVersion.css" />
     <link rel="stylesheet" href="Pop-Up/view.css">
@@ -39,7 +39,7 @@
     
     <main>
       <section id="Portfolio" class="titleText">
-        <h1>
+        <h1 class="WelcomeSide">
           I'am Balolebwami. <br />
           Glad to see <br />
           you!
@@ -305,7 +305,7 @@
         that you need built or a project that needs coding. I’d love to help
         with it!
       </p>
-      <form action="https://formspree.io/f/mnqywdoe" method="post">
+      <form action="https://formspree.io/f/mnqywdoe" method="post" id="myForm">
         <div class="formControlling">
           <input
             type="text"
@@ -316,7 +316,7 @@
           />
         </div>
         <div class="formControlling">
-          <input type="email" name="email" required placeholder="Enter email" />
+          <input type="email" name="email" id="email" required placeholder="Enter email" />
         </div>
         <div class="formControlling">
           <textarea
@@ -325,13 +325,13 @@
             placeholder="Write your message here..."
           ></textarea>
         </div>
-        
-        <button class="btn">Get in touch</button>
+        <button class="btn" type="submit">Get in touch</button>
+        <p id="error-msg" class="hidden">Email must be in lowercase</p>
       </form>
     </section>
-    <!--Script side-->
+
     <script src="CodeScript/Runner.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="javascript/modal.js" type="module"></script>
+    <script src="javascript/ValidationStuff.js" ></script>
   </body>
 </html>

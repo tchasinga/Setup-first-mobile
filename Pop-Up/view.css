@@ -159,15 +159,16 @@
   backdrop-filter: blur(9px);
 }
 
-.DisplayMessage p{
-  color: brown;
-  font-size: 20px;
-  font-weight: bold;
+.btn-outline:hover .btn-group .btn-outline {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  color: white;
+  background: #6070ff;
+  backdrop-filter: blur(9px);
 }
 
-.DisplayMessage span{
-  color: black;
-}
+
 
 @media only screen and (max-width: 375px),
   (max-width: 390px),
