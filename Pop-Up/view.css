@@ -149,7 +149,14 @@ color: #344563;
 }
 
 /*Animation side here...*/
-
+.btn-outline:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  color: black;
+  background:#EBECF0;
+  backdrop-filter: blur(9px);
+}
 
 
 @media only screen and (max-width: 375px),
