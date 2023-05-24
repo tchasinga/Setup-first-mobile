@@ -31,10 +31,10 @@ export const generateProjectPopUps = (projectDetails) => {
   <div class="twoDiver">
     <ul class="details">
       <li class="Newrole">
-        <a href="#">${role}<i class="fa fa-circle"></i></a>
+        <a href="#">${role}  <i class="fa fa-circle"></i></a>
       </li>
       <li class="Newrole">
-        <a href="#">${platform}<i class="fa fa-circle"></i></a>
+        <a href="#">${platform}  <i class="fa fa-circle"></i></a>
       </li>
       <li class="Newrole"><a href="#">${year}</a></li>
     </ul>
@@ -67,10 +67,10 @@ export const generateProjectPopUps = (projectDetails) => {
 
    <div class="btn-group">
      <a href="${linkToLiveVersion}" class="btn btn-outline">
-       See live <img src="Svg/LinksIcon.svg" alt="">
+       See live <img src="Svg/LinksIcon.svg"  alt="">
      </a>
      <a href="${linkToSource}" class="btn btn-outline">
-       See source <img src="IconGitHubi.svg" alt="">
+       See source <img src="IconGitHubi.svg"  alt="">
      </a>
    </div>
   </div>

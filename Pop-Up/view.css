@@ -32,12 +32,18 @@
   align-items: center;
 }
 
+
+
 .twoDiver .details{
   display: flex;
   gap: 20px;
   justify-content: flex-start;
   position: relative;
-  right: 2%;
+  right: 3%;
+  background: linear-gradient(90deg, #7A869A, #7A869A, #7A869A, #7A869A, #7A869A, #7A869A);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 0.3s linear infinite;
 }
 
 .threeDvier .PopUpImg{
@@ -126,11 +132,29 @@ color: #344563;
   padding: 8px 22px;
   font-size: 14px;
   color: #6070FF;
+   
 }
 
 .btn-group{
   display: flex;
   gap: 20px;
+}
+
+.btn-outline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #6070FF;
+  gap: 10px;
+}
+
+.btn-outline:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  color: black;
+  background:#EBECF0;
+  backdrop-filter: blur(9px);
 }
 
 
@@ -146,13 +170,14 @@ color: #344563;
     .keeper{
         display: grid;
         grid-template-columns: repeat(1, 2fr);
+        width: 327px;
        
     }
 
     .griding p{
        width: 308px;
        position: relative;
-       left: 10%;
+       left: 5%;
        }
 
     .fourDvier{
@@ -166,7 +191,14 @@ color: #344563;
         align-items: center;
         gap: 20px;
     }
-
-
+    
+    .twoDiver .details{
+      display: flex;
+      gap: 20px;
+      justify-content: flex-start;
+      position: relative;
+      right: 10%;
+      color: #6070FF;
+    }
 
   }
