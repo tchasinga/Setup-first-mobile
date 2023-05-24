@@ -29,8 +29,5 @@ sr.reveal('.LinkNetwork,.card-id,.portfolio,.about-me,.framWork ,.stayThere,.Con
   delay: 350,
   origin: 'right',
 });
-// tag set side
 
-// Get references to the mobile menu and its links
-
-// Add a click event listener to each o
+let WordSwitch = document.querySelector('SwitchMode');

@@ -437,7 +437,7 @@
 
   header {
     background: white;
-    padding: 30px 0  30px  0;
+    padding: 30px 0 30px 0;
     height: 20px;
     scroll-behavior: smooth;
   }
@@ -502,4 +502,6 @@
   .ImgTagOffing {
     display: none;
   }
+
+  /* code Improve */
 }
