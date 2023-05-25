@@ -44,3 +44,10 @@ form.addEventListener('keyup', () => {
   localStorage.setItem('formData', JSON.stringify(formData));
 });
 // Retrive form data from localstorage on page.....
+window.onload = () => {
+  const formData = localStorage.getItem('formData');
+  const formDataObj = JSON.parse(formData);
+  names.value = formDataObj.names;
+  email.value = formDataObj.email;
+  message.value = formDataObj.message;
+};
