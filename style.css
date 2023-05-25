@@ -28,18 +28,21 @@
   main {
     background: white;
     display: grid;
+    max-width: 100%;
     grid-template-columns: repeat(1, 2fr);
     background-image: url(img/header-shapes\ mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: fill;
     background-position: center;
-    padding: 20px;
+    padding-top: 20px;
     border-bottom-left-radius: 70px;
   }
 
   .titleText h1 {
     font-size: 35px;
     line-height: 52px;
+    max-width: 100%;
   }
 
   .titleText {
@@ -65,7 +68,7 @@
     text-align: center;
 
     /* put all of this container in the center and item */
-    width: 327px;
+    max-width: 327px;
     margin-top: 10%;
     margin-bottom: 10%;
     background-color: #fff;
