@@ -10,12 +10,12 @@ menuHamberger.addEventListener('click', () =>{
 
 let getImg = document.querySelector('.imgChange')
 getImg.innerHTML = `
-<img id="image" src="img/MrOne.jpg" alt="">
+<img id="image" src="img/MrTwo.jpg" alt="">
 `;
 
 const image = document.getElementById('image')
 let images = [
-    'img/MrOne.jpg',
+    'img/MrFive.jpg',
     'img/MrTwo.jpg',
     'img/MrThree.jpg',
     'img/MrFour.jpg',
