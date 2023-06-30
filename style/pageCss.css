@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
+
+section {
+  padding: 0px 10%;
+}
+
+.gridPresenter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px black solid;
+  position: relative;
+  background: #27323e;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+ 
+}
+/* Page designer */
+.content {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#idName {
+  width: 50%;
+  padding: 15px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 40px 40px 40px 0px;
+  background: linear-gradient(145deg, #c95c3e 0%, #857659 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.Iconget img{
+    max-width: 8%;
+    object-fit: contain;
+    gap: 20px;
+    cursor: pointer;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    animation: bounceIn 3s infinite;
+    transition: all 0.5s ease-in;
+}
+.Iconget img:hover{
+    background: linear-gradient(145deg, #332c2a 0%, #807155 100%);
+    transition: 0.5s;
+    transform: scale(1.1);
+    opacity:.8;
+    filter: brightness(.8);
+    transform: rotate(45deg);
+    animation: bounceIn 3s infinite;
+    transition: all 0.5s ease-in;
+}
+
+.imgChange img{
+    max-width: 60%;
+    max-height: 50%;
+    object-fit: contain;
+    border-radius: 37% 63% 28% 72% / 43% 48% 52% 57% ;
+    animation: animate 5s ease-in infinite;
+}
+
+@keyframes animate{
+    0%{
+        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+        
+    }
+    50%{
+        border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%;
+    }
+        100%{
+            border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+    }
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .gridPresenter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border: 1px rgb(95, 88, 88) solid;
+    position: relative;
+    top: 100px;
+  }
+
+  section {
+    padding: 0px 1%;
+  }
+}
