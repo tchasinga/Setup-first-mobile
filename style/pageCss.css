@@ -4,8 +4,8 @@ section {
   padding: 0px 10%;
 }
 
-body{
-    background: #27323e;
+body {
+  background: #27323e;
 }
 
 .gridPresenter {
@@ -16,7 +16,6 @@ body{
   background: #27323e;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
-
 
 /* Page designer */
 .content {
@@ -40,12 +39,12 @@ body{
   font-weight: none;
 }
 
-.pageOne{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    margin: 20px;
+.pageOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
 }
 
 #idName {
@@ -57,166 +56,223 @@ body{
   background: linear-gradient(145deg, #c95c3e 0%, #857659 100%);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
-.Iconget img{
-    max-width: 8%;
-    object-fit: contain;
-    gap: 20px;
-    cursor: pointer;
-    background-color: black;
-    padding: 10px;
-    border-radius: 50%;
-    animation: bounceIn 3s infinite;
-    transition: all 0.5s ease-in;
+.Iconget img {
+  max-width: 8%;
+  object-fit: contain;
+  gap: 20px;
+  cursor: pointer;
+  background-color: black;
+  padding: 10px;
+  border-radius: 50%;
+  animation: bounceIn 3s infinite;
+  transition: all 0.5s ease-in;
 }
-.Iconget img:hover{
-    background: linear-gradient(145deg, #332c2a 0%, #807155 100%);
-    transition: 0.5s;
-    transform: scale(1.1);
-    opacity:.8;
-    filter: brightness(.8);
-    transform: rotate(45deg);
-    animation: bounceIn 3s infinite;
-    transition: all 0.5s ease-in;
-}
-
-.imgChange img{
-    max-width: 60%;
-    max-height: 50%;
-    object-fit: contain;
-    border-radius: 37% 63% 28% 72% / 43% 48% 52% 57% ;
-    animation: animate 5s ease-in infinite;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    inset: 40% 40% 10% 34%;
+.Iconget img:hover {
+  background: linear-gradient(145deg, #332c2a 0%, #807155 100%);
+  transition: 0.5s;
+  transform: scale(1.1);
+  opacity: 0.8;
+  filter: brightness(0.8);
+  transform: rotate(45deg);
+  animation: bounceIn 3s infinite;
+  transition: all 0.5s ease-in;
 }
 
-.DownloadCV{
-    color: #FFF;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    border: 1px #c95c3e solid;
-    padding: 8px 22px;
-    background: linear-gradient(145deg, #6e3827b0 0%, #857659 100%);
-    border-radius: 10px 10px 20px 0px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-    width: 30%;
-    margin-top: 10px;
+.imgChange img {
+  max-width: 60%;
+  max-height: 50%;
+  object-fit: contain;
+  border-radius: 37% 63% 28% 72% / 43% 48% 52% 57%;
+  animation: animate 5s ease-in infinite;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  inset: 40% 40% 10% 34%;
 }
 
-.DownloadCV:hover{
-    background: linear-gradient(145deg, #70301e 0%, #807155 100%);
-    transition: 0.5s;
-    transform: scale(1.1);
-    opacity:.8;
-    transform: rotate(45deg);
-    animation: bounce 3s infinite;
-    transition: all 0.5s ease-in;
+.DownloadCV {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: 1px #c95c3e solid;
+  padding: 8px 22px;
+  background: linear-gradient(145deg, #6e3827b0 0%, #857659 100%);
+  border-radius: 10px 10px 20px 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  width: 30%;
+  margin-top: 10px;
+}
+
+.DownloadCV:hover {
+  background: linear-gradient(145deg, #70301e 0%, #807155 100%);
+  transition: 0.5s;
+  transform: scale(1.1);
+  opacity: 0.8;
+  transform: rotate(45deg);
+  animation: bounce 3s infinite;
+  transition: all 0.5s ease-in;
 }
 
 /* dealing with second part of section */
-.myAbout img{
-    max-width: 50%;
-    max-height: 50%;
+.myAbout img {
+  max-width: 50%;
+  max-height: 50%;
+  object-fit: contain;
+  border-radius: 37% 63% 28% 72% / 43% 48% 52% 57%;
+  animation: animate 5s ease-in infinite;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.myAbout {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.setDisplayer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+}
+
+.setDisplayer p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-weight: none;
+  color: #fff;
+}
+
+.secondPart {
+  background: #212529;
+}
+.talkAbout {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  border: 1px #c95c3e solid;
+  padding: 8px 22px;
+  border-radius: 10px 10px 20px 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+  position: relative;
+  inset: 20% 0% 0% 4%;
+}
+
+.talkAbout h3 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(
+    40deg,
+    #0e0908,
+    #c59128,
+    #807155 30%,
+    #963419 10%,
+    #9b8080 50%
+  );
+  background-size: 400%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: tchasinga 5s ease-in infinite;
+}
+
+@keyframes tchasinga {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
+  }
+}
+
+/* Start designing second part of code Skills */
+.flexSkills {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  padding-top: 20px;
+  border: 2px black solid;
+  width: 100%;
+  gap: 10px;
+}
+
+.flexSkills .Skillsign{
+    display: grid;
+    grid-column: span 3;
+}
+
+.flexSkills .Skillsign h3 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+  background: linear-gradient(
+    40deg,
+    #0e0908,
+    #706244,
+    #807155 30%,
+    #615653 10%,
+    #4e584f 50%
+  );
+  background-size: 400%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: tchasinga 10s ease-in infinite;
+}
+
+/*Cars designing */
+.containerCards {
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+  justify-content: center;
+  padding: 20px 20px 20px 20px;
+  background: linear-gradient(250deg, #aaaaa9 0%, #ccadad 100%);
+  width: 100%;
+  height: 100px;
+  border-radius: 0px 10px 30px;
+}
+
+.containerCards .getLearn{
+    margin-left: 5px;
+    width: 100%;
+}
+
+.containerCards .svgImgDesign{
+    width: 100%;
+    height: 100%;
     object-fit: contain;
-    border-radius: 37% 63% 28% 72% / 43% 48% 52% 57% ;
-    animation: animate 5s ease-in infinite;
-    justify-content: flex-start;
-    position: relative;
-}
-
-.myAbout{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
-    margin: 20px;
-}
-
-.setDisplayer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    margin: 20px;
-    width: 100%;
-    
-}
-
-.setDisplayer p{
-    font-size: 12px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-    font-weight: none;
-    color: #fff;
-}
-
-.secondPart{
-    background: #212529;
-}
-.talkAbout{
-    color: #fff;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    border: 1px #c95c3e solid;
-    padding: 8px 22px;
-    border-radius: 10px 10px 20px 0px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    margin: 20px;
-    width: 100%;
-    position: relative;
-    top : 100px;
-}
-
-.talkAbout h3{
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    background: linear-gradient(40deg,#0e0908, #c59128, #807155 30%, #963419 10%, #9b8080 50%);
-    background-size: 400%;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    animation: tchasinga 5s ease-in infinite;
-}
-
-@keyframes  tchasinga{
- 
-    0%{
-        background-position: 0%;
-    }
-    100%{
-        background-position: 100%;
-    }
-}
-
-@keyframes animate{
-    0%{
-        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
-        
-    }
-    50%{
-        border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%;
-    }
-        100%{
-            border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%;
-    }
-}
-
-
-.flexSkills{
-   display: grid;
-    grid-template-columns: repeat(3, 1fr);
 }
 
 @media only screen and (max-width: 900px) {
@@ -230,5 +286,14 @@ body{
 
   section {
     padding: 0px 1%;
+  }
+
+  .flexSkills {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-self: center;
+    padding-top: 20px;
+    border: 2px black solid;
+    width: 100%;
   }
 }

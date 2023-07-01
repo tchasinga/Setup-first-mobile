@@ -1,3 +1,5 @@
+import { animationCode } from "./Modules/Cards.js"
+animationCode()
 
 const menuHamberger = document.querySelector('.menu-hamberger')
 const navMenu = document.querySelector('.nav-links')
