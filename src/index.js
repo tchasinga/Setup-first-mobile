@@ -1,4 +1,5 @@
 import { animationCode } from "./Modules/Cards.js"
+
 animationCode()
 
 const menuHamberger = document.querySelector('.menu-hamberger')
@@ -31,3 +32,16 @@ setInterval(function(){
     image.src = images[random]
 }, 10000);
 
+import Mydata from "./Modules/getData.js";
+const displayCode = document.querySelector('.getProject');
+displayCode.innerHTML += Mydata.map((LoadingDat) =>{
+    const output =  `
+    <div class="projectManger">
+    <img src="${LoadingDat.imagine}" alt="">
+   <h2>${LoadingDat.name}</h2>
+   <p>${LoadingDat.about}</p>
+  <button>See project</button>
+ </div>
+    `;
+    return output;
+}).join('');
